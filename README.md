@@ -1,4 +1,4 @@
-#Wecitizens.be
+#WeCitizens.be
 
 ##Website installation
 
@@ -38,4 +38,4 @@ For this, you can use the *chmod* command but never set all the permission "*777
 
 ##Launching
 
-Normaly, the website work directly at the adress put into the database. If you meet a white page, verify the different step or the file permission.
+Normally, the website works directly at the address put into the database. If you meet a white page, check the different steps or the file permission.
