@@ -1,0 +1,58 @@
+
+1. [05-04-2013 12:09:14]: 
+----------------------------------------------------------------------------------------------------
+export_users : <pre>Array
+(
+    [0] => stdClass Object
+        (
+            [ID] => 31
+            [user_login] => pinon-test
+            [user_email] => jean-paul@pinon.be
+            [user_registered] => 03/04/2013
+            [display_name] => pinon-test
+            [trial_on] => 1
+            [trial_cost] => 0.00
+            [trial_duration] => 1
+            [trial_duration_type] => m
+            [trial_num_cycles] => 0
+            [duration] => 
+            [duration_type] => 
+            [amount] => 
+            [currency] => EUR
+            [join_date] => 03/04/2013
+            [last_pay_date] => 03/04/2013
+            [expire_date] => 03/04/2013
+            [membership_type] => 
+            [status] => Active
+            [payment_type] => one-time
+            [subscribed] => 
+            [autoresponder_notified] => 
+            [username] => pinon-test
+            [email] => jean-paul@pinon.be
+            [language] => Français
+            [cotisations_2013] => N/A
+            [civilit] => 
+            [first_name] => 
+            [last_name] => 
+            [company] => 
+            [phone] => 
+            [birthdate] => 
+            [number_of_children] => 
+            [gender] => Male - Man - Homme
+            [nationality] => Yes - Ja - Oui
+            [address] => 
+            [city] => 
+            [zip] => 
+            [country] => BE
+            [payment_info_module] => paypal
+            [payment_info_txn_type] => web_accept
+            [payment_info_txn_id] => 1T666230CW481960P
+            [user_password] => 3wmw3g3g
+            [transaction_id] => 17
+            [status_str] => Subscription update successful
+            [rss_token] => 
+        )
+
+)
+</pre>
+

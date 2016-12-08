@@ -1,0 +1,40 @@
+
+1. [17-04-2013 09:17:44]: 
+----------------------------------------------------------------------------------------------------
+paypal process_notify POST DATA:<pre>Array
+(
+    [txn_type] => subscr_signup
+    [subscr_id] => I-4NYWWSL50GYN
+    [last_name] => FINETTI
+    [residence_country] => BE
+    [mc_currency] => EUR
+    [item_name] => WeCitizens student, jobless, socially assisted Subscription
+    [business] => Pinon@WeCitizens.be
+    [recurring] => 1
+    [verify_sign] => AJfa.PyN2qm1mC5xdL4IGzvXVXYIALWN2BtTS0TjyiRKGWIt2kmaNMTw
+    [payer_status] => unverified
+    [payer_email] => finetti@ethiquesociale.org
+    [first_name] => Aurelio
+    [receiver_email] => Pinon@WeCitizens.be
+    [payer_id] => 5RFSEPRP4W7SS
+    [invoice] => 63
+    [reattempt] => 1
+    [subscr_date] => 02:17:26 Apr 17, 2013 PDT
+    [custom] => 63
+    [charset] => windows-1252
+    [notify_version] => 3.7
+    [period3] => 1 Y
+    [mc_amount3] => 10.00
+    [ipn_track_id] => 8cf9234ea404b
+)
+</pre>
+
+2. [17-04-2013 09:17:44]: 
+----------------------------------------------------------------------------------------------------
+paypal process_notify GET DATA:<pre>Array
+(
+    [module] => mgm_paypal
+    [method] => payment_notify
+)
+</pre>
+

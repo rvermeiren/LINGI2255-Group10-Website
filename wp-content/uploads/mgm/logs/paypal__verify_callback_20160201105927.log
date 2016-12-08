@@ -1,0 +1,29 @@
+
+3. [2016-02-01 10:59:27 UTC]: 
+----------------------------------------------------------------------------------------------------
+endpoint: https://www.paypal.com/cgi-bin/webscr
+
+4. [2016-02-01 10:59:27 UTC]: 
+----------------------------------------------------------------------------------------------------
+http_args:<pre>Array
+(
+    [headers] => Array
+        (
+            [0] => POST /cgi-bin/webscr HTTP/1.1\r\n
+            [1] => Content-Type: application/x-www-form-urlencoded\r\n
+            [2] => Host: www.paypal.com\r\n
+            [3] => User-Agent : MagicMembers V.1.8.56; http://www.wecitizens.be\r\n
+            [4] => Connection: close\r\n\r\n
+        )
+
+    [timeout] => 30
+    [sslverify] => 
+    [httpversion] => 1.1
+    [user-agent] => MagicMembers V.1.8.56; http://www.wecitizens.be
+)
+</pre>
+
+5. [2016-02-01 10:59:28 UTC]: 
+----------------------------------------------------------------------------------------------------
+VERIFIED
+

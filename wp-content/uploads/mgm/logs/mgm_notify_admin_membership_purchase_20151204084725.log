@@ -1,0 +1,13 @@
+
+2. [2015-12-04 08:47:25 UTC]: 
+----------------------------------------------------------------------------------------------------
+mgm_notify_admin - context: membership_purchase, enabled: 1, admin_email: info@wecitizens.be, subject: [WeCitizens] Admin Notification - chevalier.jacques@skynet.be purchased membership: individual [26] - [Pending], message: User display name: chevalier.jacques74267700<br />
+						User email: chevalier.jacques@skynet.be<br />
+						User ID: 9693<br />
+						Membership Type: individual<br />
+						New status: Pending<br />
+						Status message: Last payment is pending<br />
+						Subscription period: 1 year<br />
+						Subscription amount: 15.00 EUR<br />
+						Payment Mode: one-time
+

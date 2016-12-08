@@ -1,0 +1,33 @@
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress
+
+
+<FilesMatch "^.*(error_log|wp-config\.php|php.ini|\.[hH][tT][aApP].*)$">
+Order deny,allow
+Deny from all
+</FilesMatch>
+
+# !!!!!!!!
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /wp-content/.*$ [NC]
+RewriteCond %{REQUEST_FILENAME} !^.+flexible-upload-wp25js.php$
+RewriteCond %{REQUEST_FILENAME} ^.+\.(php|html|htm|txt)$
+RewriteRule .* - [F,NS,L]
+
+<Files ~ "^.*\.([Hh][Tt][Aa])">
+order allow,deny
+deny from all
+satisfy all
+</Files>
+
+Order Deny,Allow
+Deny from 114.80.68.191

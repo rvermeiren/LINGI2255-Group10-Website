@@ -1,0 +1,13 @@
+
+2. [2015-09-24 12:29:07 UTC]: 
+----------------------------------------------------------------------------------------------------
+mgm_notify_admin - context: membership_purchase, enabled: 1, admin_email: info@wecitizens.be, subject: [WeCitizens] Admin Notification - finetti@ethiquesociale.org purchased membership: individual [26] - [Pending], message: User display name: finetti65533400<br />
+						User email: finetti@ethiquesociale.org<br />
+						User ID: 9475<br />
+						Membership Type: individual<br />
+						New status: Pending<br />
+						Status message: Last payment is pending<br />
+						Subscription period: 1 year<br />
+						Subscription amount: 15.00 EUR<br />
+						Payment Mode: one-time
+

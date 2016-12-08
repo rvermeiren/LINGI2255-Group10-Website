@@ -1,0 +1,196 @@
+
+1. [01-02-2013 09:58:57]: 
+----------------------------------------------------------------------------------------------------
+<pre>Array
+(
+    [headers] => Array
+        (
+            [date] => Fri, 01 Feb 2013 09:58:56 GMT
+            [server] => Apache/2.2.15 (Unix) mod_ssl/2.2.15 OpenSSL/0.9.8e-fips-rhel5 DAV/2 mod_auth_passthrough/2.1 mod_bwlimited/1.4 FrontPage/5.0.2.2635
+            [x-powered-by] => PHP/5.2.9
+            [x-pingback] => http://www.magicmembers.com/xmlrpc.php
+            [expires] => Wed, 11 Jan 1984 05:00:00 GMT
+            [cache-control] => no-cache, must-revalidate, max-age=0
+            [pragma] => no-cache
+            [set-cookie] => PHPSESSID=e65ae7c9446057e8415fd477f05ea9da; path=/
+            [last-modified] => Fri, 01 Feb 2013 09:58:57 GMT
+            [connection] => close
+            [content-type] => text/html; charset=UTF-8
+        )
+
+    [body] => <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head profile="http://gmpg.org/xfn/11">
+<title>Nothing found for  Mgmsapi</title>
+<link href="http://www.magicmembers.com/favicon.ico" type="image/x-icon" rel="shortcut icon"/>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" type="text/css" media="all" href="http://www.magicmembers.com/wp-content/themes/mm/reset.css" />
+<link rel="stylesheet" type="text/css" media="all" href="http://www.magicmembers.com/wp-content/themes/mm/style1.css" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+<script type="text/javascript" src="http://www.magicmembers.com/wp-content/themes/mm/scripts/jquery.qtip-1.0.0-rc3.min.js"></script>
+<script type="text/javascript" src="http://www.magicmembers.com/wp-content/themes/mm/scripts/jquery.colorbox.js"></script>
+<link type="text/css" media="screen" rel="stylesheet" href="http://www.magicmembers.com/wp-content/themes/mm/scripts/colorbox.css" />
+<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://www.magicmembers.com/feed/" />
+<link rel="pingback" href="http://www.magicmembers.com/xmlrpc.php" />
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$(".youtube").colorbox({iframe:true, width:640, height:505});
+		});
+	</script>
+<script type='text/javascript' src='http://www.magicmembers.com/wp-content/plugins/proplayer/js/swfobject.js'></script>				
+	<script type="text/javascript">//<![CDATA[
+	// Google Analytics for WordPress by Yoast v4.06 | http://yoast.com/wordpress/google-analytics/
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount','UA-12635777-1']);
+	_gaq.push(['_trackPageview','/404.html?page=' + document.location.pathname + document.location.search + '&from=' + document.referrer]);
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+	// End of Google Analytics for WordPress by Yoast v4.0
+	//]]></script>
+<link rel="alternate" type="application/rss+xml" title="Magic Members &raquo; Feed" href="http://www.magicmembers.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Magic Members &raquo; Comments Feed" href="http://www.magicmembers.com/comments/feed/" />
+<link rel='stylesheet' id='wpsc-theme-css-css'  href='http://www.magicmembers.com/wp-content/plugins/wp-e-commerce/themes/marketplace/marketplace.css?ver=3.7.51' type='text/css' media='all' />
+<link rel='stylesheet' id='wpsc-theme-css-compatibility-css'  href='http://www.magicmembers.com/wp-content/plugins/wp-e-commerce/themes/compatibility.css?ver=3.7.51' type='text/css' media='all' />
+<link rel='stylesheet' id='wpsc-product-rater-css'  href='http://www.magicmembers.com/wp-content/plugins/wp-e-commerce/js/product_rater.css?ver=3.7.51' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-e-commerce-dynamic-css'  href='http://www.magicmembers.com/index.php?wpsc_user_dynamic_css=true&#038;category&#038;ver=3.7.51' type='text/css' media='all' />
+<link rel='stylesheet' id='wpsc-thickbox-css'  href='http://www.magicmembers.com/wp-content/plugins/wp-e-commerce/js/thickbox.css?ver=3.7.51' type='text/css' media='all' />
+<script type='text/javascript' src='http://www.magicmembers.com/wp-includes/js/jquery/jquery.js?ver=1.3.2'></script>
+<script type='text/javascript' src='http://www.magicmembers.com/wp-content/plugins/wp-e-commerce/js/wp-e-commerce.js?ver=3.7.51'></script>
+<script type='text/javascript' src='http://www.magicmembers.com/wp-content/plugins/wp-e-commerce/js/ajax.js?ver=3.7.51'></script>
+<script type='text/javascript' src='http://www.magicmembers.com/index.php?wpsc_user_dynamic_js=true&#038;ver=3.7.51'></script>
+<script type='text/javascript' src='http://www.magicmembers.com/wp-content/plugins/wp-e-commerce/wpsc-admin/js/jquery.livequery.js?ver=1.0.3'></script>
+<script type='text/javascript' src='http://www.magicmembers.com/wp-content/plugins/wp-e-commerce/js/jquery.rating.js?ver=3.7.51'></script>
+<script type='text/javascript' src='http://www.magicmembers.com/wp-content/plugins/wp-e-commerce/js/user.js?ver=3.751'></script>
+<script type='text/javascript' src='http://www.magicmembers.com/wp-content/plugins/wp-e-commerce/js/thickbox.js?ver=Instinct_e-commerce'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.magicmembers.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.magicmembers.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='Magic Members' href='http://www.magicmembers.com' />
+<meta name="generator" content="WordPress 2.9.2" />
+
+<!-- All in One SEO Pack 1.6.12.2 by Michael Torbert of Semper Fi Web Design[194,202] -->
+<!-- /all in one seo pack -->
+<script type='text/javascript' src='http://www.magicmembers.com/wp-includes/js/tw-sack.js?ver=1.6.1'></script>
+        <!-- WP DS FAQ -->
+        <style type='text/css'>
+.dsfaq_qa_block{ border-top: 1px solid #aaaaaa; margin-top: 20px; }
+.dsfaq_ol_quest{ }
+.dsfaq_ol_quest li{ }
+.dsfaq_ol_quest li a{ }
+.dsfaq_quest_title{ font-weight: bold; }
+.dsfaq_quest{ }
+.dsfaq_answer_title{ font-weight: bold; }
+.dsfaq_answer{ border: 1px solid #f0f0f0; padding: 5px 5px 5px 5px; }
+.dsfaq_tools{ text-align: right; font-size: smaller; }
+.dsfaq_copyright{ display: block; text-align: right; font-size: smaller; }
+</style>        <script type="text/javascript">
+        //<![CDATA[
+        function dsfaq_open_quest(id){
+            document.getElementById("dsfaq_answer_" + id).innerHTML = '<img src="http://www.magicmembers.com/wp-content/plugins/wp-ds-faq/img/ajax-loader.gif" />';
+            var mysack = new sack("http://www.magicmembers.com/wp-content/plugins/wp-ds-faq/ajax.php" );
+            mysack.execute = 1;
+            mysack.method = 'POST';
+            mysack.setVar( 'action', 'open_quest' );
+            mysack.setVar( 'id', id );
+            mysack.onError = function() { alert('Ajax error. [Error id: 10]' )};
+            mysack.runAJAX();
+            return true;
+        }
+        function dsfaq_close_quest(id){
+            document.getElementById("dsfaq_answer_" + id).innerHTML = '';
+            if(document.getElementById("dsfaq_tools_" + id)){
+                document.getElementById("dsfaq_tools_" + id).innerHTML = '';
+            }
+            
+            return true;
+        }
+                //]]>
+        </script>
+        <!-- END WP DS FAQ -->
+        <link rel='alternate' type='application/rss+xml' title='Magic Members Product List RSS' href='/mgmsapi/?wpsc_action=rss'/><style type="text/css" media="all">
+/* <![CDATA[ */
+@import url("http://www.magicmembers.com/wp-content/plugins/wp-table-reloaded/css/plugin.css?ver=1.8");
+@import url("http://www.magicmembers.com/wp-content/plugins/wp-table-reloaded/css/tablesorter.css?ver=1.8");
+/* ]]> */
+</style></head>
+<body id="pages">
+	<div id="site" class="index">
+		<div id="header-pages">
+			<div class="headall">
+            <div class="inner">
+                    <div id="headleft">
+                    <a href="http://www.magicmembers.com" title="Magic Members - Wordpress Membership Plugin"><img alt="Magic Members - Wordpress Membership Plugin" src="http://www.magicmembers.com/wp-content/themes/mm/images/magic-members-logo1.jpg"></a>
+                    </div>
+                    <div id="headright">
+                    <ul id="menu">
+                    <li class="page_item page-item-9"><a href="http://www.magicmembers.com/" title="Magic Members Home">Home</a></li>
+					<li class="page_item page-item-8"><a href="http://www.magicmembers.com/features/" title="Features">Features</a></li>
+                    <li class="page_item pricing"><a href="http://www.magicmembers.com/features#compare" title="Pricing">Pricing</a></li>
+                    <li class="page_item page-item-1"><a href="http://www.magicmembers.com/support-videos/" title="Training">Training</a></li>
+                    <li class="page_item page-item-4"><a href="http://www.magicmembers.com/membership-plugin/" title="Magic Members Blog" >Blog</a></li>
+                    <li class="page_item page-item-7"><a href="http://www.magicmembers.com/support-center/" title="Support Center">Support</a></li>
+                    <li class="page_item page-item-2"><a href="http://www.magicmembers.com/contact/" title="Contact">Contact</a></li>
+                    </ul>
+                    </div>
+                    </div>
+			</div>
+            <div class="inner"><h2></h2><h3></h3></div>
+		</div>
+	<div id="content" class="narrowcolumn">
+
+		<h2 class="center">Error 404 - Not Found</h2>
+
+	</div>
+
+	<div id="sub-content" role="complementary">
+		<ul>
+			<li id="text-4" class="widget widget_text">			<div class="textwidget"><a href="http://www.magicmembers.com/products-page/plugins/magic-members-single-license/" target="_self"><img src="http://www.magicmembers.com/wp-content/themes/mm/images/singlelicense.png" width="207" height="130">
+
+<a href="http://www.magicmembers.com/products-page/plugins/magic-members-unlimited-license/"  target="_self"><img src="http://www.magicmembers.com/wp-content/themes/mm/images/unlimited-license.png" width="207" height="130"></a></div>
+		</li>		</ul>
+	</div>
+
+
+	<!-- Footer Starts -->
+<div id="logos"><img src="http://www.magicmembers.com/wp-content/themes/mm/images/payment-autoresponder-integrations.jpg" alt="PayPal Pro Authorize.net WorldPay 2CO ClickBank CCBill Epoch Aweber MailChimp GetResponse eResponder Visa Master Card American Express Maestro Discover Delta JCB Switch SOLO" title="PayPal Pro Authorize.net WorldPay 2CO ClickBank CCBill Epoch Aweber MailChimp GetResponse eResponder Visa Master Card American Express Maestro Discover Delta JCB Switch SOLO"></div>
+
+<div id="footer">
+			<div class="menufooter">
+				<ul>
+            <li><a href="http://www.magicmembers.com" title="Magic Members - Home">Magic Members</a></li>
+<li class="page_item"><a title="FAQ" href="http://www.magicmembers.com/faq/">FAQ</a></li>
+<li class="page_item"><a title="Features" href="http://www.magicmembers.com/features/">Features</a></li>
+<li class="page_item affiliates"><a title="Affiliates" href="http://www.magicmembers.com/affiliate-program/">Affiliates</a></li>
+<li class="page_item"><a title="Support Center" href="http://www.magicmembers.com/support-center/">Support Center</a></li>
+<li class="page_item"><a title="Contact" href="http://www.magicmembers.com/contact/">Contact</a></li></ul>
+				<p>Copyright 2009 - 2012 Magic Members is a <a href="http://www.magicmembers.com" title="Membership Software">Membership Software</a> as well as Wordpress Membership Plugin. All rights reserved. <a href="http://www.magicmembers.com/terms-conditions/">Terms &amp; Conditions</a> | <a href="http://www.magicmembers.com/privacy-policy/">Privacy Policy</a></p>
+			</div>
+		</div>
+</div>
+</body>
+</html>
+    [response] => Array
+        (
+            [code] => 404
+            [message] => Not Found
+        )
+
+    [cookies] => Array
+        (
+            [0] => WP_Http_Cookie Object
+                (
+                    [name] => PHPSESSID
+                    [value] => e65ae7c9446057e8415fd477f05ea9da
+                    [expires] => 
+                    [path] => /
+                    [domain] => 
+                )
+
+        )
+
+    [filename] => 
+)
+</pre>
+

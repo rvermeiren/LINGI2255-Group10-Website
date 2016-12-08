@@ -1,0 +1,138 @@
+
+3. [03-04-2013 13:10:27]: 
+----------------------------------------------------------------------------------------------------
+<pre>Array
+(
+    [headers] => Array
+        (
+            [x-frame-options] => SAMEORIGIN
+            [strict-transport-security] => Array
+                (
+                    [0] => max-age=14400
+                    [1] => max-age=14400
+                )
+
+            [content-type] => text/html; charset=UTF-8
+            [vary] => Accept-Encoding
+            [date] => Wed, 03 Apr 2013 13:10:27 GMT
+            [content-length] => 8
+            [connection] => close
+            [set-cookie] => Array
+                (
+                    [0] => cwrClyrK4LoCV1fydGbAxiNL6iG=hhvV9-_7OzM5F8-Q8Q-i7Iou8V4x657_ZKfV0nGQFbiFbvZ7wEo6Kp7OafRFxJJg__R4cbjX3V4STnsGikECN2A6d0A9cBCxiClhtRuFUSWueCRBU4AUaKxcaFVoOVK1uOGvam%7cTHm0SVaymp6UCWIuDGQtXYM2LNUBB4IvFgwRjng2g94DjOxsCIlW_Jp8supcuKlqCBAj_m%7cfCs9Gtt9jgPx-S2A8slcCatp70cRwmSYkzIQ_Wa6zbJwJnirzE-nReiyz-SIy_kSlhkZCG%7c1364994626; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [1] => cookie_check=yes; expires=Sat, 01-Apr-2023 13:10:26 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [2] => navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [3] => navlns=0.0; expires=Tue, 29-Mar-2033 13:10:26 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [4] => Apache=10.74.8.134.1364994626546773; path=/; expires=Fri, 27-Mar-43 13:10:26 GMT
+                    [5] => X-PP-SILOVER=773171ffd3ead328f2e8a8c6cb4f2dd28dac8b289e21d3fe0f43a7223387dba6c273658cc649886573fb7ba0fde9f39aedae11b08d0df5a295badfdffca6959a29ff606187402dfbc0b1058dd19efb3c8392c85dabcd4bfef4998401fd67a880286543809230afadebd27d9a0a80ea9e
+                    [6] => Apache=10.74.8.68.1364994626540508; path=/; expires=Fri, 27-Mar-43 13:10:26 GMT
+                    [7] => TSd78272=7fb82c741230fe8f399ddf3b27ab306f47f0ed8f28971041515c2a42a0e24589205a28eb634137d16081497ffaa6df6385ae782bba64fcf83ecccf34b4608ba7762ad969318f6e1376c39df2b4608ba79467a282; Path=/
+                    [8] => aksession=1364994927~id=cookieITaoFKgFSNtdYFjmoYu5E4sezIcDvmZGL3eJeSqhf6/FasXidTc5ht8d+pUtCBiz7ij00vEUfuJ57Yzquc/IpNvfzNhI9vdpnXNSmAHy3q/XE+i6yYKyjxr2Kk65TxTlKkOfwXzylmQ=; expires=Wed, 03-Apr-2013 13:15:27 GMT; path=/; domain=.paypal.com
+                )
+
+        )
+
+    [body] => VERIFIED
+    [response] => Array
+        (
+            [code] => 200
+            [message] => OK
+        )
+
+    [cookies] => Array
+        (
+            [0] => WP_Http_Cookie Object
+                (
+                    [name] => cwrClyrK4LoCV1fydGbAxiNL6iG
+                    [value] => hhvV9-_7OzM5F8-Q8Q-i7Iou8V4x657_ZKfV0nGQFbiFbvZ7wEo6Kp7OafRFxJJg__R4cbjX3V4STnsGikECN2A6d0A9cBCxiClhtRuFUSWueCRBU4AUaKxcaFVoOVK1uOGvam|THm0SVaymp6UCWIuDGQtXYM2LNUBB4IvFgwRjng2g94DjOxsCIlW_Jp8supcuKlqCBAj_m|fCs9Gtt9jgPx-S2A8slcCatp70cRwmSYkzIQ_Wa6zbJwJnirzE-nReiyz-SIy_kSlhkZCG|1364994626
+                    [expires] => 
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [1] => WP_Http_Cookie Object
+                (
+                    [name] => cookie_check
+                    [value] => yes
+                    [expires] => 1680354626
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [2] => WP_Http_Cookie Object
+                (
+                    [name] => navcmd
+                    [value] => _notify-validate
+                    [expires] => 
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [3] => WP_Http_Cookie Object
+                (
+                    [name] => navlns
+                    [value] => 0.0
+                    [expires] => 1995714626
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [4] => WP_Http_Cookie Object
+                (
+                    [name] => Apache
+                    [value] => 10.74.8.134.1364994626546773
+                    [expires] => 2311074626
+                    [path] => /
+                    [domain] => 
+                )
+
+            [5] => WP_Http_Cookie Object
+                (
+                    [name] => X-PP-SILOVER
+                    [value] => 773171ffd3ead328f2e8a8c6cb4f2dd28dac8b289e21d3fe0f43a7223387dba6c273658cc649886573fb7ba0fde9f39aedae11b08d0df5a295badfdffca6959a29ff606187402dfbc0b1058dd19efb3c8392c85dabcd4bfef4998401fd67a880286543809230afadebd27d9a0a80ea9e
+                    [expires] => 
+                    [path] => 
+                    [domain] => 
+                )
+
+            [6] => WP_Http_Cookie Object
+                (
+                    [name] => Apache
+                    [value] => 10.74.8.68.1364994626540508
+                    [expires] => 2311074626
+                    [path] => /
+                    [domain] => 
+                )
+
+            [7] => WP_Http_Cookie Object
+                (
+                    [name] => TSd78272
+                    [value] => 7fb82c741230fe8f399ddf3b27ab306f47f0ed8f28971041515c2a42a0e24589205a28eb634137d16081497ffaa6df6385ae782bba64fcf83ecccf34b4608ba7762ad969318f6e1376c39df2b4608ba79467a282
+                    [expires] => 
+                    [path] => /
+                    [domain] => 
+                )
+
+            [8] => WP_Http_Cookie Object
+                (
+                    [name] => aksession
+                    [value] => 1364994927~id=cookieITaoFKgFSNtdYFjmoYu5E4sezIcDvmZGL3eJeSqhf6/FasXidTc5ht8d pUtCBiz7ij00vEUfuJ57Yzquc/IpNvfzNhI9vdpnXNSmAHy3q/XE i6yYKyjxr2Kk65TxTlKkOfwXzylmQ=
+                    [expires] => 1364994927
+                    [path] => /
+                    [domain] => .paypal.com
+                )
+
+        )
+
+    [filename] => 
+)
+</pre>
+

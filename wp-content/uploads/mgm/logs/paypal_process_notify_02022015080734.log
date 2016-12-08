@@ -1,0 +1,46 @@
+
+1. [02-02-2015 08:07:34]: 
+----------------------------------------------------------------------------------------------------
+paypal process_notify POST DATA:<pre>Array
+(
+    [transaction_subject] => WeCitizens individual (as honorary member) Subscription
+    [payment_date] => 00:11:41 Feb 02, 2015 PST
+    [subscr_id] => I-TBVMKP0DKDX6
+    [last_name] => Pinon
+    [residence_country] => BE
+    [item_name] => WeCitizens individual (as honorary member) Subscription
+    [payment_gross] => 
+    [mc_currency] => EUR
+    [business] => Pinon@WeCitizens.be
+    [payment_type] => instant
+    [protection_eligibility] => Ineligible
+    [verify_sign] => AXikpeG7zOGhVthM9Hx1rQTDJwJtAPmR1VSkbGFrP8vYKhOgX4r0PyTM
+    [payer_email] => luc@pinon.be
+    [txn_id] => 3U372523XK6521306
+    [receiver_email] => Pinon@WeCitizens.be
+    [first_name] => Luc
+    [parent_txn_id] => 2V20686985422944M
+    [invoice] => 617
+    [payer_id] => PQX8UT3TBJX22
+    [receiver_id] => JYK4VL37Y683J
+    [reason_code] => refund
+    [payment_status] => Refunded
+    [payment_fee] => 
+    [mc_fee] => -1.70
+    [mc_gross] => -50.00
+    [custom] => 617
+    [charset] => windows-1252
+    [notify_version] => 3.8
+    [ipn_track_id] => 3263182ce14ba
+)
+</pre>
+
+2. [02-02-2015 08:07:34]: 
+----------------------------------------------------------------------------------------------------
+paypal process_notify GET DATA:<pre>Array
+(
+    [module] => mgm_paypal
+    [method] => payment_notify
+)
+</pre>
+

@@ -1,0 +1,13 @@
+
+9. [2016-02-24 12:10:41 UTC]: 
+----------------------------------------------------------------------------------------------------
+mgm_notify_admin - context: membership_purchase, enabled: 1, admin_email: info@wecitizens.be, subject: [WeCitizens] Admin Notification - mathieu.gillion@edu.vlerick.com purchased membership: individual [26] - [Active], message: User display name: mathieu.gillion69002100<br />
+						User email: mathieu.gillion@edu.vlerick.com<br />
+						User ID: 10034<br />
+						Membership Type: individual<br />
+						New status: Active<br />
+						Status message: Last payment was successful<br />
+						Subscription period: 1 year<br />
+						Subscription amount: 15.00 EUR<br />
+						Payment Mode: one-time
+

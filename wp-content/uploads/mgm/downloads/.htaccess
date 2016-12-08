@@ -1,0 +1,6 @@
+ Options +FollowSymLinks +ExecCGI
+ <IfModule mod_rewrite.c>
+	 RewriteEngine On
+	 RewriteCond %{REQUEST_URI} !(index\.html)$
+	 RewriteRule (.*) http://www.wecitizens.be?protect=downloads&file=$1 [QSA]
+ </IfModule>

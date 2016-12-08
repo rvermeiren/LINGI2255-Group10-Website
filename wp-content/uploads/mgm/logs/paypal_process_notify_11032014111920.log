@@ -1,0 +1,35 @@
+
+1. [03-11-2014 11:19:20]: 
+----------------------------------------------------------------------------------------------------
+paypal process_notify POST DATA:<pre>Array
+(
+    [txn_type] => subscr_eot
+    [subscr_id] => I-9DGS2DN2EEFD
+    [last_name] => de Ruette
+    [residence_country] => BE
+    [item_name] => WeCitizens individual Subscription
+    [mc_currency] => EUR
+    [business] => Pinon@WeCitizens.be
+    [verify_sign] => AelYuj.MmfnQGnq1dnCnX6y7d71iAjvqkE-zXg7rCeDlC0Rm3G3abh6R
+    [payer_status] => verified
+    [payer_email] => patrick.de.ruette@scarlet.be
+    [first_name] => Patrick
+    [receiver_email] => Pinon@WeCitizens.be
+    [payer_id] => KUG5M8H7SF7S2
+    [invoice] => 300
+    [custom] => 300
+    [charset] => windows-1252
+    [notify_version] => 3.8
+    [ipn_track_id] => 5d9fd789409c3
+)
+</pre>
+
+2. [03-11-2014 11:19:20]: 
+----------------------------------------------------------------------------------------------------
+paypal process_notify GET DATA:<pre>Array
+(
+    [module] => mgm_paypal
+    [method] => payment_notify
+)
+</pre>
+

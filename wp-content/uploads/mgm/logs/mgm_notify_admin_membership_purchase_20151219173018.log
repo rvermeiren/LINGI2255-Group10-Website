@@ -1,0 +1,13 @@
+
+2. [2015-12-19 17:30:19 UTC]: 
+----------------------------------------------------------------------------------------------------
+mgm_notify_admin - context: membership_purchase, enabled: 1, admin_email: info@wecitizens.be, subject: [WeCitizens] Admin Notification - thomasphlips@telenet.be purchased membership: manager_independent_worker_politician [24] - [Pending], message: User display name: thomasphlips00360900<br />
+						User email: thomasphlips@telenet.be<br />
+						User ID: 9756<br />
+						Membership Type: manager_independent_worker_politician<br />
+						New status: Pending<br />
+						Status message: Last payment is pending<br />
+						Subscription period: 1 year<br />
+						Subscription amount: 50.00 EUR<br />
+						Payment Mode: one-time
+

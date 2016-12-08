@@ -1,0 +1,38 @@
+
+3. [23-07-2014 11:06:53]: 
+----------------------------------------------------------------------------------------------------
+paypal process_status_notify POST DATA:<pre>Array
+(
+    [txn_type] => subscr_failed
+    [subscr_id] => I-FW98XSTLWYAH
+    [last_name] => jespers
+    [residence_country] => BE
+    [item_name] => WeCitizens individual Subscription
+    [payment_gross] => 
+    [mc_currency] => EUR
+    [business] => Pinon@WeCitizens.be
+    [verify_sign] => AyaYUQ8Aft.fSYP3uwwe564Pmv-zADib0MlR0Du1tZTZ2neUb9dSCnbX
+    [payer_status] => verified
+    [payer_email] => gilbert.jespers@telenet.be
+    [first_name] => gilbert
+    [receiver_email] => Pinon@WeCitizens.be
+    [payer_id] => A72YUTTY925TU
+    [invoice] => 193
+    [retry_at] => 03:00:00 Jul 28, 2014 PDT
+    [mc_gross] => 20.00
+    [custom] => 193
+    [charset] => windows-1252
+    [notify_version] => 3.8
+    [ipn_track_id] => 3bd8b9dc63969
+)
+</pre>
+
+4. [23-07-2014 11:06:53]: 
+----------------------------------------------------------------------------------------------------
+paypal process_status_notify GET DATA:<pre>Array
+(
+    [module] => mgm_paypal
+    [method] => payment_notify
+)
+</pre>
+

@@ -1,0 +1,35 @@
+
+1. [2016-01-25 10:45:14 UTC]: 
+----------------------------------------------------------------------------------------------------
+paypal process_notify POST DATA:<pre>Array
+(
+    [txn_type] => subscr_eot
+    [subscr_id] => I-TF4R1V308CDJ
+    [last_name] => Pinon-Ryelandt
+    [residence_country] => BE
+    [item_name] => WeCitizens individual (as honorary member) Subscription
+    [mc_currency] => EUR
+    [business] => Pinon@WeCitizens.be
+    [verify_sign] => Axb3WGzO.3ca7-GZkcW5qUjA-bwbAUgMvJyMTrhIw7QEeYNukUoEWK7F
+    [payer_status] => verified
+    [payer_email] => famille@pinon-ryelandt.net
+    [first_name] => Sophie
+    [receiver_email] => Pinon@WeCitizens.be
+    [payer_id] => B7Q4BUWW5KWWC
+    [invoice] => 546
+    [custom] => 546
+    [charset] => windows-1252
+    [notify_version] => 3.8
+    [ipn_track_id] => 88313177e91cc
+)
+</pre>
+
+2. [2016-01-25 10:45:14 UTC]: 
+----------------------------------------------------------------------------------------------------
+paypal process_notify GET DATA:<pre>Array
+(
+    [module] => mgm_paypal
+    [method] => payment_notify
+)
+</pre>
+

@@ -1,0 +1,46 @@
+
+1. [02-08-2014 11:03:44]: 
+----------------------------------------------------------------------------------------------------
+paypal process_notify POST DATA:<pre>Array
+(
+    [payment_cycle] => Yearly
+    [txn_type] => recurring_payment_suspended_due_to_max_failed_payment
+    [last_name] => jespers
+    [next_payment_date] => N/A
+    [residence_country] => BE
+    [initial_payment_amount] => 0.00
+    [rp_invoice_id] => 193
+    [currency_code] => EUR
+    [time_created] => 04:29:33 Jul 23, 2013 PDT
+    [verify_sign] => A9B6-kRmQwEiX.WYd6N6lVLDPJH2AP6sqAo1sGBcz.xEh7.UkY46NCsp
+    [period_type] =>  Regular
+    [payer_status] => verified
+    [tax] => 0.00
+    [payer_email] => gilbert.jespers@telenet.be
+    [first_name] => gilbert
+    [receiver_email] => Pinon@WeCitizens.be
+    [payer_id] => A72YUTTY925TU
+    [product_type] => 1
+    [shipping] => 0.00
+    [amount_per_cycle] => 20.00
+    [profile_status] => Suspended
+    [custom] => 193
+    [charset] => windows-1252
+    [notify_version] => 3.8
+    [amount] => 20.00
+    [outstanding_balance] => 20.00
+    [recurring_payment_id] => I-FW98XSTLWYAH
+    [product_name] => WeCitizens individual Subscription
+    [ipn_track_id] => 58468dbc51a26
+)
+</pre>
+
+2. [02-08-2014 11:03:44]: 
+----------------------------------------------------------------------------------------------------
+paypal process_notify GET DATA:<pre>Array
+(
+    [module] => mgm_paypal
+    [method] => payment_notify
+)
+</pre>
+

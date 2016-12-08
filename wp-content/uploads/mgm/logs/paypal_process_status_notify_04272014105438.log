@@ -1,0 +1,46 @@
+
+3. [27-04-2014 10:54:40]: 
+----------------------------------------------------------------------------------------------------
+paypal process_status_notify POST DATA:<pre>Array
+(
+    [payment_cycle] => Yearly
+    [txn_type] => recurring_payment_suspended_due_to_max_failed_payment
+    [last_name] => FINETTI
+    [next_payment_date] => N/A
+    [residence_country] => BE
+    [initial_payment_amount] => 0.00
+    [rp_invoice_id] => 63
+    [currency_code] => EUR
+    [time_created] => 02:17:26 Apr 17, 2013 PDT
+    [verify_sign] => AQZ.k3sywwsetGM14MOFHu6R20OPAbKIGkoLNjZQBExFDVxVKkbEWU9K
+    [period_type] =>  Regular
+    [payer_status] => unverified
+    [tax] => 0.00
+    [payer_email] => finetti@ethiquesociale.org
+    [first_name] => Aurelio
+    [receiver_email] => Pinon@WeCitizens.be
+    [payer_id] => 5RFSEPRP4W7SS
+    [product_type] => 1
+    [shipping] => 0.00
+    [amount_per_cycle] => 10.00
+    [profile_status] => Suspended
+    [custom] => 63
+    [charset] => windows-1252
+    [notify_version] => 3.8
+    [amount] => 10.00
+    [outstanding_balance] => 10.00
+    [recurring_payment_id] => I-4NYWWSL50GYN
+    [product_name] => WeCitizens student, jobless, socially assisted Subscription
+    [ipn_track_id] => 7dfbdf6cf1e9b
+)
+</pre>
+
+4. [27-04-2014 10:54:40]: 
+----------------------------------------------------------------------------------------------------
+paypal process_status_notify GET DATA:<pre>Array
+(
+    [module] => mgm_paypal
+    [method] => payment_notify
+)
+</pre>
+

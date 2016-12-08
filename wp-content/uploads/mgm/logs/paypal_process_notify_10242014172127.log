@@ -1,0 +1,48 @@
+
+1. [24-10-2014 17:21:27]: 
+----------------------------------------------------------------------------------------------------
+paypal process_notify POST DATA:<pre>Array
+(
+    [transaction_subject] => 8132
+    [payment_date] => 10:23:35 Oct 24, 2014 PDT
+    [last_name] => Pinon
+    [residence_country] => BE
+    [item_name] => WeCitizens Political Directory Licence Subscription
+    [payment_gross] => 
+    [mc_currency] => EUR
+    [business] => Pinon@WeCitizens.be
+    [payment_type] => instant
+    [protection_eligibility] => Ineligible
+    [verify_sign] => Ar8EYYYTrsBEn07AB6Tz6phLgO.0At3LFCgb2iv5.hzKkXrPjQnDgMtX
+    [payer_email] => jpp@pinon.be
+    [txn_id] => 48M74972MM7628018
+    [receiver_email] => Pinon@WeCitizens.be
+    [first_name] => Jean-Paul
+    [parent_txn_id] => 2W111713GH193171T
+    [invoice] => 8132
+    [payer_id] => FZY2E3C3CN6M8
+    [receiver_id] => JYK4VL37Y683J
+    [reason_code] => refund
+    [item_number] => 
+    [handling_amount] => 0.00
+    [payment_status] => Refunded
+    [payment_fee] => 
+    [mc_fee] => -1.19
+    [shipping] => 0.00
+    [mc_gross] => -35.00
+    [custom] => 8132
+    [charset] => windows-1252
+    [notify_version] => 3.8
+    [ipn_track_id] => e27be58d22be7
+)
+</pre>
+
+2. [24-10-2014 17:21:27]: 
+----------------------------------------------------------------------------------------------------
+paypal process_notify GET DATA:<pre>Array
+(
+    [module] => mgm_paypal
+    [method] => payment_notify
+)
+</pre>
+

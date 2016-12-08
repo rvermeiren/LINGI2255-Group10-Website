@@ -1,0 +1,253 @@
+
+1. [19-04-2013 12:31:43]: 
+----------------------------------------------------------------------------------------------------
+<pre>Array
+(
+    [0] => stdClass Object
+        (
+            [ID] => 52
+            [display_name] => Aarnout
+            [user_email] => aarnoutecker@gmail.com
+        )
+
+    [1] => stdClass Object
+        (
+            [ID] => 12
+            [display_name] => Alloo
+            [user_email] => Michel.Alloo@skynet.be
+        )
+
+    [2] => stdClass Object
+        (
+            [ID] => 53
+            [display_name] => Baaldoe
+            [user_email] => baaldoe@gmail.com
+        )
+
+    [3] => stdClass Object
+        (
+            [ID] => 61
+            [display_name] => bachibouzouc
+            [user_email] => bachibouzouc@yopmail.com
+        )
+
+    [4] => stdClass Object
+        (
+            [ID] => 25
+            [display_name] => Coomans
+            [user_email] => murielmichelc@hotmail.com
+        )
+
+    [5] => stdClass Object
+        (
+            [ID] => 23
+            [display_name] => deleCourt
+            [user_email] => jcd@deltaluxConsult.com
+        )
+
+    [6] => stdClass Object
+        (
+            [ID] => 21
+            [display_name] => Derudder
+            [user_email] => vjd@nea.lu
+        )
+
+    [7] => stdClass Object
+        (
+            [ID] => 29
+            [display_name] => doultrement
+            [user_email] => rdo@gesticonseils.be
+        )
+
+    [8] => stdClass Object
+        (
+            [ID] => 68
+            [display_name] => EricParein
+            [user_email] => eric@erics.be
+        )
+
+    [9] => stdClass Object
+        (
+            [ID] => 69
+            [display_name] => Finetti
+            [user_email] => finetti@ethiquesociale.org
+        )
+
+    [10] => stdClass Object
+        (
+            [ID] => 18
+            [display_name] => Hambye
+            [user_email] => fhambye@skynet.be
+        )
+
+    [11] => stdClass Object
+        (
+            [ID] => 17
+            [display_name] => Havaux
+            [user_email] => rene.havaux@skynet.be
+        )
+
+    [12] => stdClass Object
+        (
+            [ID] => 60
+            [display_name] => Herve
+            [user_email] => rubenverbeke@yahoo.com
+        )
+
+    [13] => stdClass Object
+        (
+            [ID] => 56
+            [display_name] => jief0712
+            [user_email] => jf_eeckhaudt@yahoo.fr
+        )
+
+    [14] => stdClass Object
+        (
+            [ID] => 45
+            [display_name] => Jourquin
+            [user_email] => Christian@Jourquin.be
+        )
+
+    [15] => stdClass Object
+        (
+            [ID] => 70
+            [display_name] => JYG
+            [user_email] => jy_gantois@hotmail.com
+        )
+
+    [16] => stdClass Object
+        (
+            [ID] => 26
+            [display_name] => Leduc
+            [user_email] => jacques.leduc@skynet.be
+        )
+
+    [17] => stdClass Object
+        (
+            [ID] => 15
+            [display_name] => Lemaire
+            [user_email] => y.lemaire@alima.fr
+        )
+
+    [18] => stdClass Object
+        (
+            [ID] => 50
+            [display_name] => lucchalon
+            [user_email] => luc.chalon@telenet.be
+        )
+
+    [19] => stdClass Object
+        (
+            [ID] => 57
+            [display_name] => Lyriange
+            [user_email] => lyriange@hotmail.com
+        )
+
+    [20] => stdClass Object
+        (
+            [ID] => 51
+            [display_name] => mikedelta
+            [user_email] => mdeltour@hotmail.com
+        )
+
+    [21] => stdClass Object
+        (
+            [ID] => 22
+            [display_name] => Mossiat
+            [user_email] => pierre.mossiat@strictly-confidential.net
+        )
+
+    [22] => stdClass Object
+        (
+            [ID] => 54
+            [display_name] => Pibou
+            [user_email] => pib0u@hotmail.com
+        )
+
+    [23] => stdClass Object
+        (
+            [ID] => 63
+            [display_name] => priyabrata
+            [user_email] => priyabrata.sarkar@gmail.com
+        )
+
+    [24] => stdClass Object
+        (
+            [ID] => 71
+            [display_name] => quentin.bombled
+            [user_email] => quentin.bombled@gmail.com
+        )
+
+    [25] => stdClass Object
+        (
+            [ID] => 62
+            [display_name] => rroland
+            [user_email] => studiolair@euphonynet.be
+        )
+
+    [26] => stdClass Object
+        (
+            [ID] => 30
+            [display_name] => Scokaert
+            [user_email] => pierre@scokaert.eu
+        )
+
+    [27] => stdClass Object
+        (
+            [ID] => 14
+            [display_name] => Seys
+            [user_email] => etienne.seys@belgacom.net
+        )
+
+    [28] => stdClass Object
+        (
+            [ID] => 58
+            [display_name] => svermaut
+            [user_email] => svermaut@vanmarcke.be
+        )
+
+    [29] => stdClass Object
+        (
+            [ID] => 65
+            [display_name] => test
+            [user_email] => chatliu74@hotmail.com
+        )
+
+    [30] => stdClass Object
+        (
+            [ID] => 28
+            [display_name] => VanCauter
+            [user_email] => willem.van.cauter@jpabelgium.be
+        )
+
+    [31] => stdClass Object
+        (
+            [ID] => 20
+            [display_name] => Wilberz
+            [user_email] => eric.wilberz@yucom.be
+        )
+
+    [32] => stdClass Object
+        (
+            [ID] => 19
+            [display_name] => Willocx
+            [user_email] => ow@beci.be
+        )
+
+    [33] => stdClass Object
+        (
+            [ID] => 59
+            [display_name] => yame2be
+            [user_email] => jvanhorick@gmail.com
+        )
+
+    [34] => stdClass Object
+        (
+            [ID] => 55
+            [display_name] => Zoltanray
+            [user_email] => zoltanray54@gmail.com
+        )
+
+)
+</pre>
+

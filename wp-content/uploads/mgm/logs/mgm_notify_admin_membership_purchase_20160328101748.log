@@ -1,0 +1,13 @@
+
+2. [2016-03-28 10:17:48 UTC]: 
+----------------------------------------------------------------------------------------------------
+mgm_notify_admin - context: membership_purchase, enabled: 1, admin_email: info@wecitizens.be, subject: [WeCitizens] Admin Notification - John.Thielemans@vlaamsparlement.be purchased membership: political_directory_licence [33] - [Pending], message: User display name: John.Thielemans81977400<br />
+						User email: John.Thielemans@vlaamsparlement.be<br />
+						User ID: 10083<br />
+						Membership Type: political_directory_licence<br />
+						New status: Pending<br />
+						Status message: Last payment is pending<br />
+						Subscription period: 1 year<br />
+						Subscription amount: 35 EUR<br />
+						Payment Mode: one-time
+

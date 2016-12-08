@@ -1,0 +1,48 @@
+
+5. [03-05-2013 15:54:29]: 
+----------------------------------------------------------------------------------------------------
+paypal process_rebill_status POST DATA:<pre>Array
+(
+    [transaction_subject] => 38
+    [payment_date] => 08:54:21 May 03, 2013 PDT
+    [last_name] => Pinon
+    [residence_country] => BE
+    [item_name] => WeCitizens student, jobless, socially assisted Subscription
+    [payment_gross] => 
+    [mc_currency] => EUR
+    [business] => Pinon@WeCitizens.be
+    [payment_type] => instant
+    [protection_eligibility] => Ineligible
+    [verify_sign] => AXeQ5.qZTsqA679rUMDJdtZn8T-7A4P9Ib0NUbX5uGumotZDiCA4zjzC
+    [payer_email] => jpp@pinon.be
+    [txn_id] => 28L46085SR554181P
+    [receiver_email] => Pinon@WeCitizens.be
+    [first_name] => Jean-Paul
+    [parent_txn_id] => 5NP30122FN617174S
+    [invoice] => 38
+    [payer_id] => FZY2E3C3CN6M8
+    [receiver_id] => JYK4VL37Y683J
+    [reason_code] => refund
+    [item_number] => 
+    [handling_amount] => 0.00
+    [payment_status] => Refunded
+    [payment_fee] => 
+    [mc_fee] => -0.34
+    [shipping] => 0.00
+    [mc_gross] => -10.00
+    [custom] => 38
+    [charset] => windows-1252
+    [notify_version] => 3.7
+    [ipn_track_id] => e86e18486bbf1
+)
+</pre>
+
+6. [03-05-2013 15:54:29]: 
+----------------------------------------------------------------------------------------------------
+paypal process_rebill_status GET DATA:<pre>Array
+(
+    [module] => mgm_paypal
+    [method] => payment_notify
+)
+</pre>
+

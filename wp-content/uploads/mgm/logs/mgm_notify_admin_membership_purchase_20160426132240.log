@@ -1,0 +1,13 @@
+
+2. [2016-04-26 13:22:40 UTC]: 
+----------------------------------------------------------------------------------------------------
+mgm_notify_admin - context: membership_purchase, enabled: 1, admin_email: info@wecitizens.be, subject: [WeCitizens] Admin Notification - voorzitter@caxent.be purchased membership: association_institution [22] - [Pending], message: User display name: voorzitter84314200<br />
+						User email: voorzitter@caxent.be<br />
+						User ID: 10139<br />
+						Membership Type: association_institution<br />
+						New status: Pending<br />
+						Status message: Last payment is pending<br />
+						Subscription period: 1 year<br />
+						Subscription amount: 90.00 EUR<br />
+						Payment Mode: one-time
+

@@ -1,0 +1,46 @@
+
+5. [18-11-2014 13:41:44]: 
+----------------------------------------------------------------------------------------------------
+paypal process_rebill_status POST DATA:<pre>Array
+(
+    [payment_cycle] => Yearly
+    [txn_type] => recurring_payment_suspended_due_to_max_failed_payment
+    [last_name] => Hermans
+    [next_payment_date] => N/A
+    [residence_country] => BE
+    [initial_payment_amount] => 0.00
+    [rp_invoice_id] => 306
+    [currency_code] => EUR
+    [time_created] => 14:12:47 Nov 08, 2013 PST
+    [verify_sign] => Alph-A7QHod2SFG6Eq9-GWrFadOsA8ryhld3KEUmVsBR9zR0Icb0pVQy
+    [period_type] =>  Regular
+    [payer_status] => verified
+    [tax] => 0.00
+    [payer_email] => Ivar.Hermans@mow.vlaanderen.be
+    [first_name] => Ivar
+    [receiver_email] => Pinon@WeCitizens.be
+    [payer_id] => K3AM83MTZLAWN
+    [product_type] => 1
+    [shipping] => 0.00
+    [amount_per_cycle] => 50.00
+    [profile_status] => Suspended
+    [custom] => 306
+    [charset] => windows-1252
+    [notify_version] => 3.8
+    [amount] => 50.00
+    [outstanding_balance] => 50.00
+    [recurring_payment_id] => I-KK26WTKG5R0P
+    [product_name] => WeCitizens individual (as honorary member) Subscription
+    [ipn_track_id] => b8b5d083ac3e1
+)
+</pre>
+
+6. [18-11-2014 13:41:44]: 
+----------------------------------------------------------------------------------------------------
+paypal process_rebill_status GET DATA:<pre>Array
+(
+    [module] => mgm_paypal
+    [method] => payment_notify
+)
+</pre>
+

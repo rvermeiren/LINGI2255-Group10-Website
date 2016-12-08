@@ -1,0 +1,118 @@
+
+1. [02-02-2015 08:01:01]: 
+----------------------------------------------------------------------------------------------------
+paypal process_notify POST DATA:<pre>Array
+(
+    [txn_type] => subscr_cancel
+    [subscr_id] => I-KK26WTKG5R0P
+    [last_name] => Hermans
+    [residence_country] => BE
+    [mc_currency] => EUR
+    [item_name] => WeCitizens individual (as honorary member) Subscription
+    [business] => Pinon@WeCitizens.be
+    [recurring] => 1
+    [verify_sign] => A8k-iYYOiOkyMXCpQWzzjGSBeYZzA8-RTVo1lk3kqkahW.nz-7aDgJmt
+    [payer_status] => verified
+    [payer_email] => Ivar.Hermans@mow.vlaanderen.be
+    [first_name] => Ivar
+    [receiver_email] => Pinon@WeCitizens.be
+    [payer_id] => K3AM83MTZLAWN
+    [invoice] => 306
+    [reattempt] => 1
+    [subscr_date] => 00:04:55 Feb 02, 2015 PST
+    [custom] => 306
+    [charset] => windows-1252
+    [notify_version] => 3.8
+    [period3] => 1 Y
+    [mc_amount3] => 50.00
+    [ipn_track_id] => 433424c653797
+)
+</pre>
+
+2. [02-02-2015 08:01:01]: 
+----------------------------------------------------------------------------------------------------
+paypal process_notify GET DATA:<pre>Array
+(
+    [module] => mgm_paypal
+    [method] => payment_notify
+)
+</pre>
+
+1. [02-02-2015 08:01:01]: 
+----------------------------------------------------------------------------------------------------
+paypal process_notify POST DATA:<pre>Array
+(
+    [txn_type] => subscr_cancel
+    [subscr_id] => I-TF4R1V308CDJ
+    [last_name] => Pinon-Ryelandt
+    [residence_country] => BE
+    [mc_currency] => EUR
+    [item_name] => WeCitizens individual (as honorary member) Subscription
+    [business] => Pinon@WeCitizens.be
+    [recurring] => 1
+    [verify_sign] => A0Xs6jNZk.IK5ldu6YwCiEHBn-4xAmqAn9qt2qNz9H5PNV9oIii1H09r
+    [payer_status] => verified
+    [payer_email] => famille@pinon-ryelandt.net
+    [first_name] => Sophie
+    [receiver_email] => Pinon@WeCitizens.be
+    [payer_id] => B7Q4BUWW5KWWC
+    [invoice] => 546
+    [reattempt] => 1
+    [subscr_date] => 00:04:55 Feb 02, 2015 PST
+    [custom] => 546
+    [charset] => windows-1252
+    [notify_version] => 3.8
+    [period3] => 1 Y
+    [mc_amount3] => 50.00
+    [ipn_track_id] => 433424c653797
+)
+</pre>
+
+2. [02-02-2015 08:01:01]: 
+----------------------------------------------------------------------------------------------------
+paypal process_notify GET DATA:<pre>Array
+(
+    [module] => mgm_paypal
+    [method] => payment_notify
+)
+</pre>
+
+1. [02-02-2015 08:01:01]: 
+----------------------------------------------------------------------------------------------------
+paypal process_notify POST DATA:<pre>Array
+(
+    [txn_type] => subscr_cancel
+    [subscr_id] => I-MNAWWW8UUEWU
+    [last_name] => de Lovinfosse
+    [residence_country] => BE
+    [mc_currency] => EUR
+    [item_name] => WeCitizens small company (< 50 people) Subscription
+    [business] => Pinon@WeCitizens.be
+    [recurring] => 1
+    [verify_sign] => Aa-FY.a5MS7xq5taUT5vJwxFcjbkAv7zIovGXsKb.8HpBCQn.ObZ5s3-
+    [payer_status] => unverified
+    [payer_email] => stephane@degeest-audit.be
+    [first_name] => Stéphane
+    [receiver_email] => Pinon@WeCitizens.be
+    [payer_id] => 7HGJR6UZNEZQE
+    [invoice] => 186
+    [reattempt] => 1
+    [subscr_date] => 00:04:57 Feb 02, 2015 PST
+    [custom] => 186
+    [charset] => windows-1252
+    [notify_version] => 3.8
+    [period3] => 1 Y
+    [mc_amount3] => 300.00
+    [ipn_track_id] => 433424c653797
+)
+</pre>
+
+2. [02-02-2015 08:01:01]: 
+----------------------------------------------------------------------------------------------------
+paypal process_notify GET DATA:<pre>Array
+(
+    [module] => mgm_paypal
+    [method] => payment_notify
+)
+</pre>
+

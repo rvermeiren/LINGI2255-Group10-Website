@@ -1,0 +1,13 @@
+
+2. [2015-11-05 08:40:23 UTC]: 
+----------------------------------------------------------------------------------------------------
+mgm_notify_admin - context: membership_purchase, enabled: 1, admin_email: info@wecitizens.be, subject: [WeCitizens] Admin Notification - m.annez@skynet.be purchased membership: association_institution_as_honorary_member_ [21] - [Pending], message: User display name: m.annez86299200<br />
+						User email: m.annez@skynet.be<br />
+						User ID: 9638<br />
+						Membership Type: association_institution_as_honorary_member_<br />
+						New status: Pending<br />
+						Status message: Last payment is pending<br />
+						Subscription period: 1 year<br />
+						Subscription amount: 200.00 EUR<br />
+						Payment Mode: one-time
+

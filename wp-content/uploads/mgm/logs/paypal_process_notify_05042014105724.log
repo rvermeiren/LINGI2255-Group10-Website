@@ -1,0 +1,50 @@
+
+1. [04-05-2014 10:57:24]: 
+----------------------------------------------------------------------------------------------------
+paypal process_notify POST DATA:<pre>Array
+(
+    [mc_gross] => 15.00
+    [invoice] => 2039
+    [protection_eligibility] => Ineligible
+    [payer_id] => 7EWFKPRYPWBNN
+    [tax] => 0.00
+    [payment_date] => 04:00:54 May 04, 2014 PDT
+    [payment_status] => Completed
+    [charset] => windows-1252
+    [first_name] => Donald
+    [mc_fee] => 0.86
+    [notify_version] => 3.8
+    [custom] => 2039
+    [payer_status] => verified
+    [business] => Pinon@WeCitizens.be
+    [quantity] => 1
+    [verify_sign] => A5iODrqHuFsOLjaOMamc1met2hvmApMHJXQvFKfizE.9uwLpoxg3ZG4K
+    [payer_email] => dgilbert@voo.be
+    [txn_id] => 9LN65440NX5767817
+    [payment_type] => instant
+    [last_name] => Gilbert
+    [receiver_email] => Pinon@WeCitizens.be
+    [payment_fee] => 
+    [receiver_id] => JYK4VL37Y683J
+    [txn_type] => web_accept
+    [item_name] => WeCitizens individual Subscription
+    [mc_currency] => EUR
+    [item_number] => 
+    [residence_country] => BE
+    [handling_amount] => 0.00
+    [transaction_subject] => 2039
+    [payment_gross] => 
+    [shipping] => 0.00
+    [ipn_track_id] => dc5791c1b6992
+)
+</pre>
+
+2. [04-05-2014 10:57:24]: 
+----------------------------------------------------------------------------------------------------
+paypal process_notify GET DATA:<pre>Array
+(
+    [module] => mgm_paypal
+    [method] => payment_notify
+)
+</pre>
+

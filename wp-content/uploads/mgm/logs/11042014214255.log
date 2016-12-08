@@ -1,0 +1,296 @@
+
+1. [04-11-2014 21:42:55]: 
+----------------------------------------------------------------------------------------------------
+export_users : <pre>Array
+(
+    [0] => stdClass Object
+        (
+            [user_login] => carine
+            [user_email] => carine.wilmart@gmail.com
+            [pack_id] => 1
+            [membership_type] => trial
+            [stay_in_touch_with_our_newsletter] => N/A
+            [username] => carine
+            [email] => carine.wilmart@gmail.com
+            [language] => Français
+            [civilit] => madame
+            [first_name] => carine
+            [last_name] => wilmart
+            [zip] => 1970
+        )
+
+    [1] => stdClass Object
+        (
+            [user_login] => Roussillem
+            [user_email] => michel.roussille@gmail.com
+            [pack_id] => 26
+            [membership_type] => individual
+            [stay_in_touch_with_our_newsletter] => N/A
+            [username] => Roussillem
+            [email] => michel.roussille@gmail.com
+            [language] => Français
+            [civilit] => Monsieur
+            [first_name] => Michel
+            [last_name] => Roussille
+            [zip] => 7000
+        )
+
+    [2] => stdClass Object
+        (
+            [user_login] => philippeclaeys
+            [user_email] => philippeclaeys@skynet.be
+            [pack_id] => 26
+            [membership_type] => individual
+            [stay_in_touch_with_our_newsletter] => N/A
+            [username] => philippeclaeys
+            [email] => philippeclaeys@skynet.be
+            [language] => Français
+            [civilit] => Mr
+            [first_name] => Philippe 
+            [last_name] => Claeys
+            [zip] => 1150
+        )
+
+    [3] => stdClass Object
+        (
+            [user_login] => schoon
+            [user_email] => maddy.schoon@hotmail.com
+            [pack_id] => 26
+            [membership_type] => individual
+            [stay_in_touch_with_our_newsletter] => N/A
+            [username] => schoon
+            [email] => maddy.schoon@hotmail.com
+            [language] => English
+
+        )
+
+    [4] => stdClass Object
+        (
+            [user_login] => amertes
+            [user_email] => alain.mertes@vivant-ostbelgien.org
+            [pack_id] => 26
+            [membership_type] => individual
+            [stay_in_touch_with_our_newsletter] => N/A
+            [username] => amertes
+            [email] => alain.mertes@vivant-ostbelgien.org
+            [language] => Français
+        )
+
+    [5] => stdClass Object
+        (
+            [user_login] => Almertes
+            [user_email] => alain.mertes@pdg.be
+            [pack_id] => 26
+            [membership_type] => individual
+            [stay_in_touch_with_our_newsletter] => N/A
+            [username] => Almertes
+            [email] => alain.mertes@pdg.be
+            [language] => Français
+        )
+
+    [6] => stdClass Object
+        (
+            [user_login] => frank.michiels
+            [user_email] => christina.frank15@gmail.com
+            [pack_id] => 26
+            [membership_type] => individual
+            [stay_in_touch_with_our_newsletter] => N/A
+            [username] => frank.michiels
+            [email] => christina.frank15@gmail.com
+            [language] => Nederlands
+        )
+
+    [7] => stdClass Object
+        (
+            [user_login] => thierrydock
+            [user_email] => thierrydock@hotmail.com
+            [pack_id] => 26
+            [membership_type] => individual
+            [stay_in_touch_with_our_newsletter] => N/A
+            [username] => thierrydock
+            [email] => thierrydock@hotmail.com
+            [language] => Français
+        )
+
+    [8] => stdClass Object
+        (
+            [user_login] => nleonard
+            [user_email] => nicolas.leonard@sudpresse.be
+            [pack_id] => 26
+            [membership_type] => individual
+            [stay_in_touch_with_our_newsletter] => N/A
+            [username] => nleonard
+            [email] => nicolas.leonard@sudpresse.be
+            [language] => Français
+        )
+
+    [9] => stdClass Object
+        (
+            [user_login] => Adriaan
+            [user_email] => adriaan_verhelle@hotmail.com
+            [pack_id] => 26
+            [membership_type] => individual
+            [stay_in_touch_with_our_newsletter] => N/A
+            [username] => Adriaan
+            [email] => adriaan_verhelle@hotmail.com
+            [language] => Nederlands
+            [civilit] => Ir.
+            [first_name] => Adriaan
+            [last_name] => Verhelle
+            [zip] => 8870
+        )
+
+    [10] => stdClass Object
+        (
+            [user_login] => l.marcillaud
+            [user_email] => l.marcillaud@yahoo.fr
+            [pack_id] => 26
+            [membership_type] => individual
+            [stay_in_touch_with_our_newsletter] => N/A
+            [username] => l.marcillaud
+            [email] => l.marcillaud@yahoo.fr
+            [language] => Français
+        )
+
+    [11] => stdClass Object
+        (
+            [user_login] => jchrb
+            [user_email] => jc@jchrb.com
+            [pack_id] => 26
+            [membership_type] => individual
+            [stay_in_touch_with_our_newsletter] => N/A
+            [username] => jchrb
+            [email] => jc@jchrb.com
+            [language] => English
+
+            [civilit] => Mr
+            [first_name] => Jean-Christophe
+            [last_name] => Blondiau
+        )
+
+    [12] => stdClass Object
+        (
+            [user_login] => Simonmoutquin
+            [user_email] => simon.moutquin@gmail.com
+            [pack_id] => 26
+            [membership_type] => individual
+            [stay_in_touch_with_our_newsletter] => N/A
+            [username] => Simonmoutquin
+            [email] => simon.moutquin@gmail.com
+            [language] => Français
+            [civilit] => MR
+            [first_name] => simon
+            [last_name] => moutquin
+            [company] => Ecolo
+            [zip] => 1450
+        )
+
+    [13] => stdClass Object
+        (
+            [user_login] => Savelkouls
+            [user_email] => Louis_savelkouls@hotmail.com
+            [pack_id] => 26
+            [membership_type] => individual
+            [stay_in_touch_with_our_newsletter] => N/A
+            [username] => Savelkouls
+            [email] => Louis_savelkouls@hotmail.com
+            [language] => Français
+            [civilit] => Monsieur
+            [first_name] => Louis
+            [last_name] => Savelkouls
+            [zip] => 4606
+        )
+
+    [14] => stdClass Object
+        (
+            [user_login] => idecoster
+            [user_email] => imre.decoster@gmail.com
+            [pack_id] => 24
+            [membership_type] => manager_independent_worker_politician
+            [stay_in_touch_with_our_newsletter] => N/A
+            [username] => idecoster
+            [email] => imre.decoster@gmail.com
+            [language] => Français
+            [civilit] => Mr
+            [first_name] => Imre
+            [last_name] => de Coster
+            [company] => COGESTOR
+            [zip] => 1390
+        )
+
+    [15] => stdClass Object
+        (
+            [user_login] => joelle.bekaert
+            [user_email] => joelle.bekaert@gmail.com
+            [pack_id] => 26
+            [membership_type] => individual
+            [stay_in_touch_with_our_newsletter] => N/A
+            [username] => joelle.bekaert
+            [email] => joelle.bekaert@gmail.com
+            [language] => Français
+            [civilit] => mme
+            [first_name] => joelle
+            [last_name] => bekaert
+            [zip] => 4000
+        )
+
+    [16] => stdClass Object
+        (
+            [user_login] => JJD
+            [user_email] => joelle_demol@hotmail.com
+            [pack_id] => 26
+            [membership_type] => individual
+            [stay_in_touch_with_our_newsletter] => N/A
+            [username] => JJD
+            [email] => joelle_demol@hotmail.com
+            [language] => Français
+            [first_name] => Joelle
+            [last_name] => Demol
+            [zip] => 1160
+        )
+
+    [17] => stdClass Object
+        (
+            [user_login] => jharmant
+            [user_email] => jacques.harmant@gmail.com
+            [pack_id] => 26
+            [membership_type] => individual
+            [stay_in_touch_with_our_newsletter] => N/A
+            [username] => jharmant
+            [email] => jacques.harmant@gmail.com
+            [language] => Français
+            [zip] => 1332
+        )
+
+    [18] => stdClass Object
+        (
+            [user_login] => XANDRES
+            [user_email] => mahieu@aquapro.be
+            [pack_id] => 26
+            [membership_type] => individual
+            [stay_in_touch_with_our_newsletter] => N/A
+            [username] => XANDRES
+            [email] => mahieu@aquapro.be
+            [language] => Français
+        )
+
+    [19] => stdClass Object
+        (
+            [user_login] => dirkverhoeven953299700
+            [user_email] => dirkverhoeven9@yahoo.com
+            [pack_id] => 33
+            [membership_type] => political_directory_licence
+            [stay_in_touch_with_our_newsletter] => Yes
+            [username] => N/A
+            [email] => dirkverhoeven9@yahoo.com
+            [language] => English
+
+            [civilit] => Mrs
+            [first_name] => Dirk
+            [last_name] => Verhoeven
+            [zip] => 3360
+        )
+
+)
+</pre>
+

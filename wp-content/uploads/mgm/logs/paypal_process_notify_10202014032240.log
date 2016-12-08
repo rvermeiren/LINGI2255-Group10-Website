@@ -1,0 +1,50 @@
+
+1. [20-10-2014 03:22:40]: 
+----------------------------------------------------------------------------------------------------
+paypal process_notify POST DATA:<pre>Array
+(
+    [mc_gross] => 15.00
+    [invoice] => 8042
+    [protection_eligibility] => Ineligible
+    [payer_id] => A9T763AC438U8
+    [tax] => 0.00
+    [payment_date] => 20:24:40 Oct 19, 2014 PDT
+    [payment_status] => Completed
+    [charset] => windows-1252
+    [first_name] => Christian
+    [mc_fee] => 0.86
+    [notify_version] => 3.8
+    [custom] => 8042
+    [payer_status] => unverified
+    [business] => Pinon@WeCitizens.be
+    [quantity] => 1
+    [verify_sign] => ADdl4oVpM-ynIRwR.FfOFZPl-OIqAFgQuusnV1ZIhpy0AbyU16ZsoL77
+    [payer_email] => chris_fp1234@yahoo.com
+    [txn_id] => 2HS57290450859142
+    [payment_type] => instant
+    [last_name] => Frippiat
+    [receiver_email] => Pinon@WeCitizens.be
+    [payment_fee] => 
+    [receiver_id] => JYK4VL37Y683J
+    [txn_type] => web_accept
+    [item_name] => WeCitizens individual Subscription
+    [mc_currency] => EUR
+    [item_number] => 
+    [residence_country] => BE
+    [handling_amount] => 0.00
+    [transaction_subject] => 8042
+    [payment_gross] => 
+    [shipping] => 0.00
+    [ipn_track_id] => 52ea68d51ea42
+)
+</pre>
+
+2. [20-10-2014 03:22:40]: 
+----------------------------------------------------------------------------------------------------
+paypal process_notify GET DATA:<pre>Array
+(
+    [module] => mgm_paypal
+    [method] => payment_notify
+)
+</pre>
+

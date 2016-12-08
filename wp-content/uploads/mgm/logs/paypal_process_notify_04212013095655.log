@@ -1,0 +1,85 @@
+
+1. [21-04-2013 09:56:55]: 
+----------------------------------------------------------------------------------------------------
+paypal process_notify POST DATA:<pre>Array
+(
+    [txn_type] => subscr_signup
+    [subscr_id] => I-KU4BX3PS6LLW
+    [last_name] => PAPPALARDO
+    [residence_country] => BE
+    [mc_currency] => EUR
+    [item_name] => WeCitizens individual Subscription
+    [business] => Pinon@WeCitizens.be
+    [recurring] => 1
+    [verify_sign] => AZ9h965qEk-LkTv0JvONwCxvDTNQAuIbxNvUZl27T8oKGegWZQkQtkRB
+    [payer_status] => unverified
+    [payer_email] => lucio.pappalardo@hotmail.fr
+    [first_name] => Lucio
+    [receiver_email] => Pinon@WeCitizens.be
+    [payer_id] => Y9APWYX74EQNY
+    [invoice] => 69
+    [reattempt] => 1
+    [subscr_date] => 02:56:30 Apr 21, 2013 PDT
+    [custom] => 69
+    [charset] => windows-1252
+    [notify_version] => 3.7
+    [period3] => 1 Y
+    [mc_amount3] => 20.00
+    [ipn_track_id] => 50fa20bcbcb2f
+)
+</pre>
+
+1. [21-04-2013 09:56:55]: 
+----------------------------------------------------------------------------------------------------
+paypal process_notify POST DATA:<pre>Array
+(
+    [transaction_subject] => WeCitizens individual Subscription
+    [payment_date] => 02:56:33 Apr 21, 2013 PDT
+    [txn_type] => subscr_payment
+    [subscr_id] => I-KU4BX3PS6LLW
+    [last_name] => PAPPALARDO
+    [residence_country] => BE
+    [item_name] => WeCitizens individual Subscription
+    [payment_gross] => 
+    [mc_currency] => EUR
+    [business] => Pinon@WeCitizens.be
+    [payment_type] => instant
+    [protection_eligibility] => Ineligible
+    [verify_sign] => Afpza49pXj9EkGNX.Iv.-s4GIanAA4Bfwth95gKbTBaqaBZZwO3M6Cow
+    [payer_status] => unverified
+    [payer_email] => lucio.pappalardo@hotmail.fr
+    [txn_id] => 3WG80513TK689240F
+    [receiver_email] => Pinon@WeCitizens.be
+    [first_name] => Lucio
+    [invoice] => 69
+    [payer_id] => Y9APWYX74EQNY
+    [receiver_id] => JYK4VL37Y683J
+    [payment_status] => Completed
+    [payment_fee] => 
+    [mc_fee] => 1.03
+    [mc_gross] => 20.00
+    [custom] => 69
+    [charset] => windows-1252
+    [notify_version] => 3.7
+    [ipn_track_id] => 50fa20bcbcb2f
+)
+</pre>
+
+2. [21-04-2013 09:56:55]: 
+----------------------------------------------------------------------------------------------------
+paypal process_notify GET DATA:<pre>Array
+(
+    [module] => mgm_paypal
+    [method] => payment_notify
+)
+</pre>
+
+2. [21-04-2013 09:56:55]: 
+----------------------------------------------------------------------------------------------------
+paypal process_notify GET DATA:<pre>Array
+(
+    [module] => mgm_paypal
+    [method] => payment_notify
+)
+</pre>
+

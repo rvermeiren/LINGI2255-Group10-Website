@@ -1,0 +1,13 @@
+
+2. [2015-12-19 19:12:21 UTC]: 
+----------------------------------------------------------------------------------------------------
+mgm_notify_admin - context: membership_purchase, enabled: 1, admin_email: info@wecitizens.be, subject: [WeCitizens] Admin Notification - mauriceherion@skynet.be purchased membership: individual [26] - [Pending], message: User display name: mauriceherion49107600<br />
+						User email: mauriceherion@skynet.be<br />
+						User ID: 9757<br />
+						Membership Type: individual<br />
+						New status: Pending<br />
+						Status message: Last payment is pending<br />
+						Subscription period: 1 year<br />
+						Subscription amount: 15.00 EUR<br />
+						Payment Mode: one-time
+

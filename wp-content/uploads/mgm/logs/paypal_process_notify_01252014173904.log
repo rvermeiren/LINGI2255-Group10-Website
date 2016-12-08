@@ -1,0 +1,85 @@
+
+1. [25-01-2014 17:39:04]: 
+----------------------------------------------------------------------------------------------------
+paypal process_notify POST DATA:<pre>Array
+(
+    [txn_type] => subscr_signup
+    [subscr_id] => I-TF4R1V308CDJ
+    [last_name] => Pinon-Ryelandt
+    [residence_country] => BE
+    [mc_currency] => EUR
+    [item_name] => WeCitizens individual (as honorary member) Subscription
+    [business] => Pinon@WeCitizens.be
+    [recurring] => 1
+    [verify_sign] => AdJG6qLpPWLTBH2V61f5eToYeaYaA66s4BEZv9ah5ccVhqByDm0UE8Up
+    [payer_status] => verified
+    [payer_email] => famille@pinon-ryelandt.net
+    [first_name] => Sophie
+    [receiver_email] => Pinon@WeCitizens.be
+    [payer_id] => B7Q4BUWW5KWWC
+    [invoice] => 546
+    [reattempt] => 1
+    [subscr_date] => 09:40:35 Jan 25, 2014 PST
+    [custom] => 546
+    [charset] => windows-1252
+    [notify_version] => 3.7
+    [period3] => 1 Y
+    [mc_amount3] => 50.00
+    [ipn_track_id] => f4f52a4b926b2
+)
+</pre>
+
+2. [25-01-2014 17:39:04]: 
+----------------------------------------------------------------------------------------------------
+paypal process_notify GET DATA:<pre>Array
+(
+    [module] => mgm_paypal
+    [method] => payment_notify
+)
+</pre>
+
+1. [25-01-2014 17:39:04]: 
+----------------------------------------------------------------------------------------------------
+paypal process_notify POST DATA:<pre>Array
+(
+    [transaction_subject] => WeCitizens individual (as honorary member) Subscription
+    [payment_date] => 09:40:38 Jan 25, 2014 PST
+    [txn_type] => subscr_payment
+    [subscr_id] => I-TF4R1V308CDJ
+    [last_name] => Pinon-Ryelandt
+    [residence_country] => BE
+    [item_name] => WeCitizens individual (as honorary member) Subscription
+    [payment_gross] => 
+    [mc_currency] => EUR
+    [business] => Pinon@WeCitizens.be
+    [payment_type] => instant
+    [protection_eligibility] => Ineligible
+    [verify_sign] => Aodd1NQqV-EVZV6Mkw86liRqiNtqAFSEIo7lIjvRzWiNnJq-ta8ZSlTL
+    [payer_status] => verified
+    [payer_email] => famille@pinon-ryelandt.net
+    [txn_id] => 69A794164Y0574338
+    [receiver_email] => Pinon@WeCitizens.be
+    [first_name] => Sophie
+    [invoice] => 546
+    [payer_id] => B7Q4BUWW5KWWC
+    [receiver_id] => JYK4VL37Y683J
+    [payment_status] => Completed
+    [payment_fee] => 
+    [mc_fee] => 2.05
+    [mc_gross] => 50.00
+    [custom] => 546
+    [charset] => windows-1252
+    [notify_version] => 3.7
+    [ipn_track_id] => f4f52a4b926b2
+)
+</pre>
+
+2. [25-01-2014 17:39:04]: 
+----------------------------------------------------------------------------------------------------
+paypal process_notify GET DATA:<pre>Array
+(
+    [module] => mgm_paypal
+    [method] => payment_notify
+)
+</pre>
+

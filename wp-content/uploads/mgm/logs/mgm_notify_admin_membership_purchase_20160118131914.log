@@ -1,0 +1,13 @@
+
+9. [2016-01-18 13:19:16 UTC]: 
+----------------------------------------------------------------------------------------------------
+mgm_notify_admin - context: membership_purchase, enabled: 1, admin_email: info@wecitizens.be, subject: [WeCitizens] Admin Notification - patrick.vanerkel@uantwerpen.be purchased membership: political_directory_licence [33] - [Active], message: User display name: patrick.vanerkel35799100<br />
+						User email: patrick.vanerkel@uantwerpen.be<br />
+						User ID: 9903<br />
+						Membership Type: political_directory_licence<br />
+						New status: Active<br />
+						Status message: Last payment was successful<br />
+						Subscription period: 1 year<br />
+						Subscription amount: 35 EUR<br />
+						Payment Mode: one-time
+

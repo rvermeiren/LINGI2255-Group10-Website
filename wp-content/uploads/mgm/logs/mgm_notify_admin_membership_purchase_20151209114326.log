@@ -1,0 +1,13 @@
+
+2. [2015-12-09 11:43:26 UTC]: 
+----------------------------------------------------------------------------------------------------
+mgm_notify_admin - context: membership_purchase, enabled: 1, admin_email: info@wecitizens.be, subject: [WeCitizens] Admin Notification - festina.lente@pandora.be purchased membership: association_institution [22] - [Pending], message: User display name: festina.lente62743400<br />
+						User email: festina.lente@pandora.be<br />
+						User ID: 9725<br />
+						Membership Type: association_institution<br />
+						New status: Pending<br />
+						Status message: Last payment is pending<br />
+						Subscription period: 1 year<br />
+						Subscription amount: 90.00 EUR<br />
+						Payment Mode: one-time
+

@@ -1,0 +1,46 @@
+
+1. [21-04-2014 11:00:35]: 
+----------------------------------------------------------------------------------------------------
+paypal process_notify POST DATA:<pre>Array
+(
+    [transaction_subject] => WeCitizens individual Subscription
+    [payment_date] => 04:03:41 Apr 21, 2014 PDT
+    [txn_type] => subscr_payment
+    [subscr_id] => I-KU4BX3PS6LLW
+    [last_name] => PAPPALARDO
+    [residence_country] => BE
+    [item_name] => WeCitizens individual Subscription
+    [payment_gross] => 
+    [mc_currency] => EUR
+    [business] => Pinon@WeCitizens.be
+    [payment_type] => instant
+    [protection_eligibility] => Ineligible
+    [verify_sign] => AKS2doX6ofNZWGhxLS5NvR7r-2ijA1fISiqgdVPKE2-R67T8G6g2UHeN
+    [payer_status] => unverified
+    [payer_email] => lucio.pappalardo@hotmail.fr
+    [txn_id] => 6D565138VV296962R
+    [receiver_email] => Pinon@WeCitizens.be
+    [first_name] => Lucio
+    [invoice] => 69
+    [payer_id] => Y9APWYX74EQNY
+    [receiver_id] => JYK4VL37Y683J
+    [payment_status] => Completed
+    [payment_fee] => 
+    [mc_fee] => 1.03
+    [mc_gross] => 20.00
+    [custom] => 69
+    [charset] => windows-1252
+    [notify_version] => 3.7
+    [ipn_track_id] => 506297e92afbf
+)
+</pre>
+
+2. [21-04-2014 11:00:35]: 
+----------------------------------------------------------------------------------------------------
+paypal process_notify GET DATA:<pre>Array
+(
+    [module] => mgm_paypal
+    [method] => payment_notify
+)
+</pre>
+

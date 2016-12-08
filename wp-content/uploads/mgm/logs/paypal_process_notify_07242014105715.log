@@ -1,0 +1,46 @@
+
+1. [24-07-2014 10:57:15]: 
+----------------------------------------------------------------------------------------------------
+paypal process_notify POST DATA:<pre>Array
+(
+    [transaction_subject] => WeCitizens individual Subscription
+    [payment_date] => 03:57:25 Jul 24, 2014 PDT
+    [txn_type] => subscr_payment
+    [subscr_id] => I-X9YJYC0U6CT1
+    [last_name] => Van denbempt
+    [residence_country] => BE
+    [item_name] => WeCitizens individual Subscription
+    [payment_gross] => 
+    [mc_currency] => EUR
+    [business] => Pinon@WeCitizens.be
+    [payment_type] => instant
+    [protection_eligibility] => Ineligible
+    [verify_sign] => AtrvReWjwVVS8EiQtKL2sJrAPxMYA9rdbLHf7g9JaFy3SoW3NfW4K3q3
+    [payer_status] => unverified
+    [payer_email] => paul.van.denbempt@skynet.be
+    [txn_id] => 855618129R8229805
+    [receiver_email] => Pinon@WeCitizens.be
+    [first_name] => Paul
+    [invoice] => 199
+    [payer_id] => DXERYWUGR35TQ
+    [receiver_id] => JYK4VL37Y683J
+    [payment_status] => Completed
+    [payment_fee] => 
+    [mc_fee] => 1.03
+    [mc_gross] => 20.00
+    [custom] => 199
+    [charset] => windows-1252
+    [notify_version] => 3.8
+    [ipn_track_id] => 933cb695eb41d
+)
+</pre>
+
+2. [24-07-2014 10:57:15]: 
+----------------------------------------------------------------------------------------------------
+paypal process_notify GET DATA:<pre>Array
+(
+    [module] => mgm_paypal
+    [method] => payment_notify
+)
+</pre>
+

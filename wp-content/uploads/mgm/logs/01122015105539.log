@@ -1,0 +1,420 @@
+
+1. [12-01-2015 10:55:39]: 
+----------------------------------------------------------------------------------------------------
+export_users : <pre>Array
+(
+    [0] => stdClass Object
+        (
+            [ID] => 7646
+            [user_login] => dominiquevansevenant
+            [user_email] => dominique.vansevenant@n-va.be
+            [user_registered] => 27/11/2014
+            [display_name] => dominiquevansevenant
+            [trial_on] => 0
+            [trial_cost] => 0
+            [trial_duration] => 0
+            [trial_duration_type] => d
+            [trial_num_cycles] => 0
+            [duration] => 0
+            [duration_type] => m
+            [amount] => 0
+            [currency] => USD
+            [join_date] => N/A
+            [last_pay_date] => N/A
+            [expire_date] => N/A
+            [membership_type] => trial
+            [status] => Active
+            [payment_type] => 
+            [subscribed] => 
+            [autoresponder_notified] => 
+            [stay_in_touch_with_our_newsletter] => N/A
+            [username] => N/A
+            [email] => N/A
+            [language] => N/A
+            [civilit] => N/A
+            [first_name] => N/A
+            [last_name] => N/A
+            [company] => N/A
+            [zip] => N/A
+            [rss_token] => 
+        )
+
+    [1] => stdClass Object
+        (
+            [ID] => 7698
+            [user_login] => pierre.de.smet41992100
+            [user_email] => pierre.de.smet@telenet.be
+            [user_registered] => 03/12/2014
+            [display_name] => pierre.de.smet41992100
+            [trial_on] => 0
+            [trial_cost] => 0
+            [trial_duration] => 0
+            [trial_duration_type] => d
+            [trial_num_cycles] => 0
+            [duration] => 1
+            [duration_type] => y
+            [amount] => 50.00
+            [currency] => EUR
+            [join_date] => 03/12/2014
+            [last_pay_date] => 03/12/2014
+            [expire_date] => 02/09/2015
+            [membership_type] => individual_as_honorary_member_
+            [status] => Active
+            [payment_type] => one-time
+            [subscribed] => 
+            [autoresponder_notified] => 
+            [stay_in_touch_with_our_newsletter] => Yes
+            [username] => N/A
+            [email] => pierre.de.smet@telenet.be
+            [language] => Français
+            [civilit] => Mrs
+            [first_name] => Pierre
+            [last_name] => de Smet
+            [company] => 
+            [zip] => 3040
+            [payment_info_module] => manualpay
+            [payment_info_txn_type] => subscription
+            [payment_info_subscr_id] => 
+            [payment_info_txn_id] => 
+            [payment_info_notes] => a payé par erreur €45 sur le compte CB1 le 2/9/2014
+            [user_password] => KwaJqNnVqwuwqa3a
+            [pack_id] => 25
+            [transaction_id] => 8782
+            [status_str] => Last payment was successful
+            [rss_token] => 
+        )
+
+    [2] => stdClass Object
+        (
+            [ID] => 7746
+            [user_login] => didekoker47657900
+            [user_email] => didekoker@telenet.be
+            [user_registered] => 07/12/2014
+            [display_name] => didekoker47657900
+            [trial_on] => 0
+            [trial_cost] => 0
+            [trial_duration] => 0
+            [trial_duration_type] => d
+            [trial_num_cycles] => 0
+            [duration] => 0
+            [duration_type] => d
+            [amount] => 0.00
+            [currency] => USD
+            [join_date] => N/A
+            [last_pay_date] => N/A
+            [expire_date] => N/A
+            [membership_type] => _
+            [status] => Inactive
+            [payment_type] => 
+            [subscribed] => 
+            [autoresponder_notified] => 
+            [stay_in_touch_with_our_newsletter] => Yes
+            [username] => N/A
+            [email] => didekoker@telenet.be
+            [language] => Nederlands
+            [civilit] => 
+Mr
+            [first_name] => Diederik
+            [last_name] => De Koker
+            [company] => 
+            [zip] => 2340
+            [user_password] => BBf9ctfXLBtePFwF
+            [active_num_cycles] => 0
+            [pack_id] => 34
+            [rss_token] => 
+        )
+
+    [3] => stdClass Object
+        (
+            [ID] => 7748
+            [user_login] => michel.gerebtzoff86760900
+            [user_email] => michel.gerebtzoff@gmail.com
+            [user_registered] => 08/12/2014
+            [display_name] => michel.gerebtzoff86760900
+            [trial_on] => 0
+            [trial_cost] => 0
+            [trial_duration] => 0
+            [trial_duration_type] => d
+            [trial_num_cycles] => 0
+            [duration] => 1
+            [duration_type] => y
+            [amount] => 15.00
+            [currency] => EUR
+            [join_date] => 08/12/2014
+            [last_pay_date] => 08/12/2014
+            [expire_date] => 08/12/2015
+            [membership_type] => individual
+            [status] => Active
+            [payment_type] => one-time
+            [subscribed] => 
+            [autoresponder_notified] => 
+            [stay_in_touch_with_our_newsletter] => Yes
+            [username] => N/A
+            [email] => michel.gerebtzoff@gmail.com
+            [language] => Français
+            [civilit] => 
+Mr
+            [first_name] => michel
+            [last_name] => gerebtzoff
+            [company] => Awex Canton (Chine)
+            [zip] => Guangzhou, Chine
+            [payment_info_module] => paypal
+            [payment_info_txn_type] => web_accept
+            [payment_info_subscr_id] => ONE-TIME SUBSCRIPTION
+            [payment_info_txn_id] => 3GE89856V4975582T
+            [user_password] => UUXhaXwFIrIG
+            [pack_id] => 26
+            [transaction_id] => 8887
+            [status_str] => Last payment was successful
+            [hide_old_content] => 0
+            [rss_token] => 
+        )
+
+    [4] => stdClass Object
+        (
+            [ID] => 7752
+            [user_login] => ericvos
+            [user_email] => eric.vos@turnhout.be
+            [user_registered] => 08/12/2014
+            [display_name] => ericvos
+            [trial_on] => 0
+            [trial_cost] => 0
+            [trial_duration] => 0
+            [trial_duration_type] => d
+            [trial_num_cycles] => 0
+            [duration] => 0
+            [duration_type] => m
+            [amount] => 0
+            [currency] => USD
+            [join_date] => N/A
+            [last_pay_date] => N/A
+            [expire_date] => N/A
+            [membership_type] => trial
+            [status] => Active
+            [payment_type] => 
+            [subscribed] => 
+            [autoresponder_notified] => 
+            [stay_in_touch_with_our_newsletter] => N/A
+            [username] => N/A
+            [email] => N/A
+            [language] => N/A
+            [civilit] => N/A
+            [first_name] => N/A
+            [last_name] => N/A
+            [company] => N/A
+            [zip] => N/A
+            [rss_token] => 
+        )
+
+    [5] => stdClass Object
+        (
+            [ID] => 7771
+            [user_login] => lodehofmans
+            [user_email] => l.hofmans@portima.be
+            [user_registered] => 10/12/2014
+            [display_name] => lodehofmans
+            [trial_on] => 0
+            [trial_cost] => 0
+            [trial_duration] => 0
+            [trial_duration_type] => d
+            [trial_num_cycles] => 0
+            [duration] => 0
+            [duration_type] => m
+            [amount] => 0
+            [currency] => USD
+            [join_date] => N/A
+            [last_pay_date] => N/A
+            [expire_date] => N/A
+            [membership_type] => trial
+            [status] => Active
+            [payment_type] => 
+            [subscribed] => 
+            [autoresponder_notified] => 
+            [stay_in_touch_with_our_newsletter] => N/A
+            [username] => N/A
+            [email] => N/A
+            [language] => N/A
+            [civilit] => N/A
+            [first_name] => N/A
+            [last_name] => N/A
+            [company] => N/A
+            [zip] => N/A
+            [rss_token] => 
+        )
+
+    [6] => stdClass Object
+        (
+            [ID] => 7776
+            [user_login] => peetersjan
+            [user_email] => burgemeester.jan.peeters@herentals.be
+            [user_registered] => 10/12/2014
+            [display_name] => peetersjan
+            [trial_on] => 0
+            [trial_cost] => 0
+            [trial_duration] => 0
+            [trial_duration_type] => d
+            [trial_num_cycles] => 0
+            [duration] => 0
+            [duration_type] => m
+            [amount] => 0
+            [currency] => USD
+            [join_date] => N/A
+            [last_pay_date] => N/A
+            [expire_date] => N/A
+            [membership_type] => trial
+            [status] => Active
+            [payment_type] => 
+            [subscribed] => 
+            [autoresponder_notified] => 
+            [stay_in_touch_with_our_newsletter] => N/A
+            [username] => N/A
+            [email] => N/A
+            [language] => N/A
+            [civilit] => N/A
+            [first_name] => N/A
+            [last_name] => N/A
+            [company] => N/A
+            [zip] => N/A
+            [rss_token] => 
+        )
+
+    [7] => stdClass Object
+        (
+            [ID] => 7777
+            [user_login] => fabrice07423900
+            [user_email] => fabrice@wazo.lu
+            [user_registered] => 10/12/2014
+            [display_name] => fabrice07423900
+            [trial_on] => 0
+            [trial_cost] => 0
+            [trial_duration] => 0
+            [trial_duration_type] => d
+            [trial_num_cycles] => 0
+            [duration] => 1
+            [duration_type] => y
+            [amount] => 35
+            [currency] => EUR
+            [join_date] => 10/12/2014
+            [last_pay_date] => 10/12/2014
+            [expire_date] => 10/12/2015
+            [membership_type] => political_directory_licence
+            [status] => Pending
+            [payment_type] => one-time
+            [subscribed] => 
+            [autoresponder_notified] => 
+            [stay_in_touch_with_our_newsletter] => Yes
+            [username] => N/A
+            [email] => fabrice@wazo.lu
+            [language] => Français
+            [civilit] => 
+Mr
+            [first_name] => Fabrice
+            [last_name] => Cara
+            [company] => Wazo
+            [zip] => 4000
+            [payment_info_module] => manualpay
+            [payment_info_txn_type] => subscription
+            [payment_info_subscr_id] => 
+            [payment_info_txn_id] => 
+            [user_password] => QVtNpcCX
+            [pack_id] => 33
+            [transaction_id] => 8932
+            [status_str] => Last payment is pending
+            [rss_token] => 
+        )
+
+    [8] => stdClass Object
+        (
+            [ID] => 7785
+            [user_login] => benoidb98555100
+            [user_email] => benoidb@pt.lu
+            [user_registered] => 11/12/2014
+            [display_name] => benoidb98555100
+            [trial_on] => 0
+            [trial_cost] => 0
+            [trial_duration] => 0
+            [trial_duration_type] => d
+            [trial_num_cycles] => 0
+            [duration] => 1
+            [duration_type] => y
+            [amount] => 15.00
+            [currency] => EUR
+            [join_date] => 11/12/2014
+            [last_pay_date] => 11/12/2014
+            [expire_date] => 04/12/2015
+            [membership_type] => individual
+            [status] => Active
+            [payment_type] => one-time
+            [subscribed] => 
+            [autoresponder_notified] => 
+            [stay_in_touch_with_our_newsletter] => Yes
+            [username] => N/A
+            [email] => benoidb@pt.lu
+            [language] => Français
+            [civilit] => 
+Mr
+            [first_name] => Benoît
+            [last_name] => de Bien
+            [company] => 
+            [zip] => L-8211
+            [payment_info_module] => manualpay
+            [payment_info_txn_type] => subscription
+            [payment_info_subscr_id] => 
+            [payment_info_txn_id] => 
+            [payment_info_notes] => KBC 141214 €15
+            [user_password] => ctEsPgl+aHHs
+            [pack_id] => 26
+            [transaction_id] => 8945
+            [status_str] => Last payment was successful
+            [rss_token] => 
+        )
+
+    [9] => stdClass Object
+        (
+            [ID] => 8126
+            [user_login] => p.descheemaecker31157300
+            [user_email] => p.descheemaecker@mdslegal.be
+            [user_registered] => 07/01/2015
+            [display_name] => p.descheemaecker31157300
+            [trial_on] => 0
+            [trial_cost] => 0
+            [trial_duration] => 0
+            [trial_duration_type] => d
+            [trial_num_cycles] => 0
+            [duration] => 1
+            [duration_type] => y
+            [amount] => 50.00
+            [currency] => EUR
+            [join_date] => 07/01/2015
+            [last_pay_date] => 07/01/2015
+            [expire_date] => 07/01/2016
+            [membership_type] => individual_as_honorary_member_
+            [status] => Active
+            [payment_type] => one-time
+            [subscribed] => 
+            [autoresponder_notified] => 
+            [stay_in_touch_with_our_newsletter] => Yes
+            [username] => N/A
+            [email] => p.descheemaecker@mdslegal.be
+            [language] => Nederlands
+            [civilit] => 
+Mr
+            [first_name] => Paul
+            [last_name] => De Scheemaecker
+            [company] => mds Legal Compass
+            [zip] => 2900
+            [payment_info_module] => manualpay
+            [payment_info_txn_type] => subscription
+            [payment_info_subscr_id] => 
+            [payment_info_txn_id] => 
+            [payment_info_notes] => paiement comptant 150107 de 50€
+            [user_password] => U5qfkAgOULFfqFqR
+            [pack_id] => 25
+            [transaction_id] => 9307
+            [status_str] => Last payment was successful
+            [rss_token] => 
+        )
+
+)
+</pre>
+

@@ -1,0 +1,253 @@
+form#registerform { }
+
+	form#registerform hr {
+    	border: 0;
+   		border-bottom: 1px dashed #ccc;
+    	background: #999;
+		margin: 10px 0;
+	}
+
+	input[type=text].mgm_register_field {
+		height:15px;
+		padding:5px;
+		margin: 0 0 10px 0;
+		border: 1px solid #CCCCCC;
+		font: 13px Helvetica, Arial, sans-serif;
+		color: #555;
+	}
+	input[type=password].mgm_register_field {
+		height:20px;
+		padding:3px;
+		margin: 0 0 10px 0;
+		border: 1px solid #CCCCCC;
+		font: 13px Helvetica, Arial, sans-serif;
+		color: #555;
+		width:100%;
+	}
+	textarea.mgm_register_field {
+		border: 1px solid #CCCCCC;
+		color: #555;
+		font: 13px Helvetica, Arial, sans-serif;
+		padding:5px;
+		margin: 0 0 10px 0;
+	}
+	select.mgm_register_field {
+		font-weight:normal;
+		border: 1px solid #CCCCCC;
+		font: 13px Helvetica, Arial, sans-serif;
+		height:27px;
+		margin: 0 0 10px 0;
+	}
+	.mgm_subs_wrapper select {
+		width: 520px;
+		height: 25px;
+	}
+	.username_box  {
+		float:left;
+		overflow:hidden;
+		margin:0 15px 0 0;
+	}
+		.username_box input[type=text].mgm_register_field {
+			width:240px;
+
+		}
+	.email_box  {
+		float:left;
+		overflow:hidden;
+	}
+		.email_box input[type=text].mgm_register_field {
+			width:240px;
+		}
+	.password_box  {
+		float:left;
+		overflow:hidden;
+		margin:0 15px 0 0;
+	}
+		.password_box input[type=password].mgm_register_field {
+			width:244px;
+		}
+	.password_conf_box {
+		float:left;
+		overflow:hidden;
+	}
+		.password_conf_box input[type=password].mgm_register_field {
+			width:244px;
+		}
+	.language_box {
+		overflow:hidden;
+		padding-bottom:20px;
+		margin: 0 0 20px 0;
+		border-bottom:1px solid #BBBBBB;
+		overflow:hidden;
+		clear:both;
+	}
+		.language_box select {
+			width:520px;
+			height:25px;
+		}
+	.civilit_box {
+		float:left;
+		overflow:hidden;
+		margin:0 15px 0 0;
+	}
+		.civilit_box input[type=text].mgm_register_field {
+			width:130px;
+		}
+	.first_name_box {
+		float:left;
+		overflow:hidden;
+		margin:0 15px 0 0;
+	}
+		.first_name_box input[type=text].mgm_register_field {
+			width:165px;
+		}
+	.last_name_box  {
+		float:left;
+		overflow:hidden;
+	}
+		.last_name_box input[type=text].mgm_register_field {
+			width:163px;
+		}
+	.phone_box  {
+		float:left;
+		overflow:hidden;
+		margin:0 15px 0 0;
+	}
+		.phone_box input[type=text].mgm_register_field {
+			width:170px;
+		}
+		
+	.birthyear_geboortejaar_box  {
+		float:left;
+		overflow:hidden;
+		margin: 0;
+	}
+		.birthyear_geboortejaar_box input[type=text].mgm_register_field {
+			width:100px;
+		}
+		
+	.number_of_children_box  {
+		float:left;
+		overflow:hidden;
+	}
+		.number_of_children_box input[type=text].mgm_register_field {
+			width:150px;
+		}
+		
+	.gender_box  {
+		float:left;
+		overflow:hidden;
+		margin: 0 15px 0 0;
+	}
+		.gender_box select {
+			width:200px;
+		}
+	
+	.nationality_box  {
+		float:left;
+		overflow:hidden;
+		margin:0 15px 0 0;
+	}
+		.nationality_box select {
+			width:255px;
+		}
+
+	.address_box  {
+		clear:both;
+		width:100%;
+	}
+	.city_box  {
+		float:left;
+		overflow:hidden;
+		margin:0 15px 0 0;
+	}
+		.city_box input[type=text].mgm_register_field {
+			width:180px;
+		}
+		
+	.zip_box  {
+		float:left;
+		overflow:hidden;
+		margin:0 15px 0 0;
+	}
+		.zip_box input[type=text].mgm_register_field {
+			width:120px;
+		}
+		
+	.country_box  {
+		float:left;
+		overflow:hidden;
+	}
+		.country_box select.mgm_register_field {
+			width:255px;
+		}
+	
+	.code_box  {
+		float:left;
+		overflow:hidden;
+	}
+		.code_box input[type=text].mgm_register_field {
+			width:160px;
+		}
+	
+	.subscription_options_box label {
+		display:block;
+		margin-bottom:10px;
+		font-size:13px;
+		font-weight:bold;
+	}
+	
+	.mgm_field_html {
+	width: 100%;
+	height: 300px;
+	overflow: auto;
+	border: 1px solid #E5E5E5;
+	padding: 3px;
+	margin: 5px 0 5px 0;
+}
+
+/*
+PROFILE
+------------------------------------------------------*/
+#profileform span { display:block; clear:both; width:508px; line-height:25px;  height:auto; margin-bottom:8px; background-color:#666666; color:#FFFFFF; font-size:12px; padding:0 10px; height:25px; }
+#profileform label { display:block; margin-bottom:4px; }
+#profileform div { margin:0; padding:0; }
+#profileform .mgm_profile_field { margin:0; padding:0; }
+#profileform input[type=text], #profileform input[type=password], #profileform select, #profileform textarea { padding:5px; margin-bottom:10px; }
+#profileform select { font-size:12px; height:28px; }
+#profileform .username_box { overflow:hidden; }
+		#profileform .username_box input[type=text] { width:516px; }
+#profileform .first_name_box { overflow:hidden; margin-right:16px; float:left; }
+		#profileform .first_name_box input[type=text] { width:244px; }
+#profileform .last_name_box { overflow:hidden; float:left; }
+		#profileform .last_name_box input[type=text] { width:244px; }
+#profileform .email_box { overflow:hidden; }
+		#profileform .email_box input[type=text] { width:516px; }
+#profileform .language_box { overflow:hidden; border:none; margin-bottom:10px; }
+		#profileform .language_box select { width:528px; }
+#profileform .civilit_box { overflow:hidden;  margin-right:16px; float:left; }
+		#profileform .civilit_box input[type=text] { width:150px; }
+#profileform .company_box { overflow:hidden; float:left; }
+		#profileform .company_box input[type=text] { width:338px; }
+#profileform .phone_box { overflow:hidden; margin-right:16px; float:left; }
+		#profileform .phone_box input[type=text] { width:190px; }
+#profileform .gender_box { overflow:hidden; margin-right:16px; float:left; }
+		#profileform .gender_box select { width:220px; }
+#profileform .birthyear_geboortejaar_box { overflow:hidden; float:left; }
+		#profileform .birthyear_geboortejaar_box input[type=text] { width:62px; }
+#profileform .nationality_box { overflow:hidden; margin-right:16px; float:left; margin-bottom:10px; }
+		#profileform .nationality_box select { width:256px; }
+#profileform .country_box { overflow:hidden; float:left; margin-bottom:10px; }
+		#profileform .country_box select { width:256px; }
+#profileform .address_box { overflow:hidden; float:left; }
+		#profileform .address_box textarea { width:526px; margin-bottom:10px; }
+#profileform .city_box { overflow:hidden; margin-right:16px; float:left; }
+		#profileform .city_box input[type=text] { width:160px; }
+#profileform .zip_box { overflow:hidden; margin-right:16px; float:left; }
+		#profileform .zip_box input[type=text] { width:160px; }
+#profileform .fisco_flash_box { overflow:hidden; margin-right:16px; float:left; }
+		#profileform .fisco_flash_box div { margin:0; padding:0; width:auto; }
+		#profileform .fisco_flash_box input[type=checkbox] { float:left; }
+#profileform input[type=submit] { clear:both; float:none; width:160px;}
+#profileform .button mgm-profile-button { clear:both; }
+	

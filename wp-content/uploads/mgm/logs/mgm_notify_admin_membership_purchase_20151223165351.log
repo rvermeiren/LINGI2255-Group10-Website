@@ -1,0 +1,13 @@
+
+2. [2015-12-23 16:53:52 UTC]: 
+----------------------------------------------------------------------------------------------------
+mgm_notify_admin - context: membership_purchase, enabled: 1, admin_email: info@wecitizens.be, subject: [WeCitizens] Admin Notification - johan.bortier@unizo.be purchased membership: political_directory_licence [33] - [Pending], message: User display name: johan.bortier93599900<br />
+						User email: johan.bortier@unizo.be<br />
+						User ID: 9770<br />
+						Membership Type: political_directory_licence<br />
+						New status: Pending<br />
+						Status message: Last payment is pending<br />
+						Subscription period: 1 year<br />
+						Subscription amount: 17 EUR<br />
+						Payment Mode: one-time
+

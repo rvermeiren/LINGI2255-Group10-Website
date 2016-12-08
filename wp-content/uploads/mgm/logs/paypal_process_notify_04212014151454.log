@@ -1,0 +1,40 @@
+
+1. [21-04-2014 15:14:54]: 
+----------------------------------------------------------------------------------------------------
+paypal process_notify POST DATA:<pre>Array
+(
+    [txn_type] => subscr_cancel
+    [subscr_id] => I-KU4BX3PS6LLW
+    [last_name] => PAPPALARDO
+    [residence_country] => BE
+    [mc_currency] => EUR
+    [item_name] => WeCitizens individual Subscription
+    [business] => Pinon@WeCitizens.be
+    [recurring] => 1
+    [verify_sign] => AG1D2IXdWPQ2R5BX.3p0LUJ6Uy.IA1ulTyZ-UV-v6O-gfBZpcUw.HBD3
+    [payer_status] => unverified
+    [payer_email] => lucio.pappalardo@hotmail.fr
+    [first_name] => Lucio
+    [receiver_email] => Pinon@WeCitizens.be
+    [payer_id] => Y9APWYX74EQNY
+    [invoice] => 69
+    [reattempt] => 1
+    [subscr_date] => 08:18:07 Apr 21, 2014 PDT
+    [custom] => 69
+    [charset] => windows-1252
+    [notify_version] => 3.7
+    [period3] => 1 Y
+    [mc_amount3] => 20.00
+    [ipn_track_id] => dd1f14ec83740
+)
+</pre>
+
+2. [21-04-2014 15:14:54]: 
+----------------------------------------------------------------------------------------------------
+paypal process_notify GET DATA:<pre>Array
+(
+    [module] => mgm_paypal
+    [method] => payment_notify
+)
+</pre>
+

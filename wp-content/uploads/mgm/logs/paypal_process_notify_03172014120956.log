@@ -1,0 +1,85 @@
+
+1. [17-03-2014 12:09:56]: 
+----------------------------------------------------------------------------------------------------
+paypal process_notify POST DATA:<pre>Array
+(
+    [transaction_subject] => WeCitizens manager, independent worker Subscription
+    [payment_date] => 05:12:21 Mar 17, 2014 PDT
+    [txn_type] => subscr_payment
+    [subscr_id] => I-GT63PXDD3DXJ
+    [last_name] => jacobs
+    [residence_country] => BE
+    [item_name] => WeCitizens manager, independent worker Subscription
+    [payment_gross] => 
+    [mc_currency] => EUR
+    [business] => Pinon@WeCitizens.be
+    [payment_type] => instant
+    [protection_eligibility] => Ineligible
+    [verify_sign] => ArEZr1nzCN-JhYFLCG8arYmaXVR8AIoZuDCEPFeI-dpgvk.l6nf7w0Zf
+    [payer_status] => unverified
+    [payer_email] => christian.m.jacobs@gmail.com
+    [txn_id] => 7Y7259000A1013745
+    [receiver_email] => Pinon@WeCitizens.be
+    [first_name] => christian
+    [invoice] => 1071
+    [payer_id] => M4R5YPGGPXNCG
+    [receiver_id] => JYK4VL37Y683J
+    [payment_status] => Completed
+    [payment_fee] => 
+    [mc_fee] => 2.05
+    [mc_gross] => 50.00
+    [custom] => 1071
+    [charset] => windows-1252
+    [notify_version] => 3.7
+    [ipn_track_id] => e68b83bd60927
+)
+</pre>
+
+2. [17-03-2014 12:09:56]: 
+----------------------------------------------------------------------------------------------------
+paypal process_notify GET DATA:<pre>Array
+(
+    [module] => mgm_paypal
+    [method] => payment_notify
+)
+</pre>
+
+1. [17-03-2014 12:09:56]: 
+----------------------------------------------------------------------------------------------------
+paypal process_notify POST DATA:<pre>Array
+(
+    [txn_type] => subscr_signup
+    [subscr_id] => I-GT63PXDD3DXJ
+    [last_name] => jacobs
+    [residence_country] => BE
+    [mc_currency] => EUR
+    [item_name] => WeCitizens manager, independent worker Subscription
+    [business] => Pinon@WeCitizens.be
+    [recurring] => 1
+    [verify_sign] => ALA4ty-7BPeN1-owSvW8hUFluBeJA3GAv0ZoIEn2c2gsP1W2DcjMf6Xj
+    [payer_status] => unverified
+    [payer_email] => christian.m.jacobs@gmail.com
+    [first_name] => christian
+    [receiver_email] => Pinon@WeCitizens.be
+    [payer_id] => M4R5YPGGPXNCG
+    [invoice] => 1071
+    [reattempt] => 1
+    [subscr_date] => 05:12:15 Mar 17, 2014 PDT
+    [custom] => 1071
+    [charset] => windows-1252
+    [notify_version] => 3.7
+    [period3] => 1 Y
+    [mc_amount3] => 50.00
+    [ipn_track_id] => e68b83bd60927
+)
+</pre>
+
+2. [17-03-2014 12:09:56]: 
+----------------------------------------------------------------------------------------------------
+paypal process_notify GET DATA:<pre>Array
+(
+    [module] => mgm_paypal
+    [method] => payment_notify
+)
+</pre>
+

@@ -1,0 +1,13 @@
+
+2. [2016-06-21 09:39:28 UTC]: 
+----------------------------------------------------------------------------------------------------
+mgm_notify_admin - context: membership_purchase, enabled: 1, admin_email: info@wecitizens.be, subject: [WeCitizens] Admin Notification - michel.dardenne@mpe-hve.be purchased membership: association_institution [22] - [Pending], message: User display name: michel.dardenne57994600<br />
+						User email: michel.dardenne@mpe-hve.be<br />
+						User ID: 10254<br />
+						Membership Type: association_institution<br />
+						New status: Pending<br />
+						Status message: Last payment is pending<br />
+						Subscription period: 1 year<br />
+						Subscription amount: 90.00 EUR<br />
+						Payment Mode: one-time
+

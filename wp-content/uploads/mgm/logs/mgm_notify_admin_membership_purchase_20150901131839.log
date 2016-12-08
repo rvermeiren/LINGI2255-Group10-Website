@@ -1,0 +1,13 @@
+
+2. [2015-09-01 13:18:39 UTC]: 
+----------------------------------------------------------------------------------------------------
+mgm_notify_admin - context: membership_purchase, enabled: 1, admin_email: info@wecitizens.be, subject: [WeCitizens] Admin Notification - julieverstraete@yahoo.com purchased membership: individual [26] - [Pending], message: User display name: julieverstraete95864300<br />
+						User email: julieverstraete@yahoo.com<br />
+						User ID: 9060<br />
+						Membership Type: individual<br />
+						New status: Pending<br />
+						Status message: Last payment is pending<br />
+						Subscription period: 1 year<br />
+						Subscription amount: 15.00 EUR<br />
+						Payment Mode: one-time
+

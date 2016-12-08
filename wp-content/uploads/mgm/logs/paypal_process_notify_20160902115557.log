@@ -1,0 +1,48 @@
+
+1. [2016-09-02 11:55:57 UTC]: 
+----------------------------------------------------------------------------------------------------
+paypal process_notify POST DATA:<pre>Array
+(
+    [transaction_subject] => 
+    [payment_date] => 04:56:13 Sep 02, 2016 PDT
+    [txn_type] => web_accept
+    [last_name] => Briou
+    [residence_country] => LU
+    [item_name] => WeCitizens Political Directory Licence Subscription
+    [payment_gross] => 
+    [mc_currency] => EUR
+    [business] => Pinon@WeCitizens.be
+    [payment_type] => instant
+    [protection_eligibility] => Ineligible
+    [verify_sign] => AXWBkrlz2i-r4wVI-be0v2gEzKuUAXRx10DXqGW9y2u97W5vgt9B8gI0
+    [payer_status] => verified
+    [payer_email] => ticket-admin@wex.be
+    [txn_id] => 0YT589226Y448731D
+    [quantity] => 1
+    [receiver_email] => Pinon@WeCitizens.be
+    [first_name] => Laurent
+    [invoice] => 9381
+    [payer_id] => V6MW6DL8AN74C
+    [receiver_id] => JYK4VL37Y683J
+    [item_number] => 
+    [payer_business_name] => Wallonie Expo S.A.
+    [payment_status] => Completed
+    [payment_fee] => 
+    [mc_fee] => 1.54
+    [mc_gross] => 35.00
+    [custom] => 9381
+    [charset] => windows-1252
+    [notify_version] => 3.8
+    [ipn_track_id] => f9490ade8859a
+)
+</pre>
+
+2. [2016-09-02 11:55:57 UTC]: 
+----------------------------------------------------------------------------------------------------
+paypal process_notify GET DATA:<pre>Array
+(
+    [module] => mgm_paypal
+    [method] => payment_notify
+)
+</pre>
+

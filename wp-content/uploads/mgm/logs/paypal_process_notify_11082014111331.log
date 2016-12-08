@@ -1,0 +1,38 @@
+
+1. [08-11-2014 11:13:31]: 
+----------------------------------------------------------------------------------------------------
+paypal process_notify POST DATA:<pre>Array
+(
+    [txn_type] => subscr_failed
+    [subscr_id] => I-KK26WTKG5R0P
+    [last_name] => Hermans
+    [residence_country] => BE
+    [item_name] => WeCitizens individual (as honorary member) Subscription
+    [payment_gross] => 
+    [mc_currency] => EUR
+    [business] => Pinon@WeCitizens.be
+    [verify_sign] => AGFgiU78Y4fiXhRi1UTGfGLPId-qAqWex.6hfO4VpQe.IBZB5GYIiPKv
+    [payer_status] => verified
+    [payer_email] => Ivar.Hermans@mow.vlaanderen.be
+    [first_name] => Ivar
+    [receiver_email] => Pinon@WeCitizens.be
+    [payer_id] => K3AM83MTZLAWN
+    [invoice] => 306
+    [retry_at] => 02:00:00 Nov 13, 2014 PST
+    [mc_gross] => 50.00
+    [custom] => 306
+    [charset] => windows-1252
+    [notify_version] => 3.8
+    [ipn_track_id] => 9eb60cce739c2
+)
+</pre>
+
+2. [08-11-2014 11:13:31]: 
+----------------------------------------------------------------------------------------------------
+paypal process_notify GET DATA:<pre>Array
+(
+    [module] => mgm_paypal
+    [method] => payment_notify
+)
+</pre>
+

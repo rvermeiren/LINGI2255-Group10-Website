@@ -1,0 +1,51 @@
+
+1. [2016-01-18 13:19:14 UTC]: 
+----------------------------------------------------------------------------------------------------
+paypal process_notify POST DATA:<pre>Array
+(
+    [mc_gross] => 35.00
+    [invoice] => 9356
+    [protection_eligibility] => Ineligible
+    [payer_id] => Z5RTEGW98D4SE
+    [tax] => 0.00
+    [payment_date] => 05:30:04 Jan 18, 2016 PST
+    [payment_status] => Completed
+    [charset] => windows-1252
+    [first_name] => Patrick
+    [mc_fee] => 1.54
+    [notify_version] => 3.8
+    [custom] => 9356
+    [payer_status] => unverified
+    [business] => Pinon@WeCitizens.be
+    [quantity] => 1
+    [verify_sign] => AXikpeG7zOGhVthM9Hx1rQTDJwJtAq1ZPbXzY-gGGSpBBDIK5L5TmP3t
+    [payer_email] => patrick.vanerkel@uantwerpen.be
+    [txn_id] => 5TR324872R546423P
+    [payment_type] => instant
+    [last_name] => van Erkel
+    [receiver_email] => Pinon@WeCitizens.be
+    [payment_fee] => 
+    [receiver_id] => JYK4VL37Y683J
+    [txn_type] => web_accept
+    [item_name] => WeCitizens Political Directory Licence Subscription
+    [mc_currency] => EUR
+    [item_number] => 
+    [residence_country] => BE
+    [receipt_id] => 1760-5412-8265-1737
+    [handling_amount] => 0.00
+    [transaction_subject] => 9356
+    [payment_gross] => 
+    [shipping] => 0.00
+    [ipn_track_id] => 4701dbacac2a0
+)
+</pre>
+
+2. [2016-01-18 13:19:14 UTC]: 
+----------------------------------------------------------------------------------------------------
+paypal process_notify GET DATA:<pre>Array
+(
+    [module] => mgm_paypal
+    [method] => payment_notify
+)
+</pre>
+

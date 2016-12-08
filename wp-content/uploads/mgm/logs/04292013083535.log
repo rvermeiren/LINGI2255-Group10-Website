@@ -1,0 +1,108 @@
+
+1. [29-04-2013 08:35:35]: 
+----------------------------------------------------------------------------------------------------
+export_users : <pre>Array
+(
+    [0] => stdClass Object
+        (
+            [ID] => 72
+            [user_login] => carpinteyrodyd
+            [user_email] => DirmInign@357merry.com
+            [user_registered] => 19/04/2013
+            [display_name] => carpinteyrodyd
+            [trial_on] => 0
+            [trial_cost] => 0
+            [trial_duration] => 0
+            [trial_duration_type] => d
+            [trial_num_cycles] => 0
+            [duration] => 1
+            [duration_type] => y
+            [amount] => 3000.00
+            [currency] => USD
+            [join_date] => N/A
+            [last_pay_date] => N/A
+            [expire_date] => N/A
+            [membership_type] => big_company_over_250_people_working_
+            [status] => Inactive
+            [payment_type] => 
+            [subscribed] => 
+            [autoresponder_notified] => 
+            [username] => carpinteyrodyd
+            [email] => DirmInign@357merry.com
+            [language] => English
+            [cotisations_2013] => N/A
+            [civilit] => N/A
+            [first_name] => carpinteyrodyd
+            [last_name] => carpinteyrodyd
+            [company] => google
+            [phone] => 123456
+            [gender] => Male - Man - Homme
+            [birthyear_geboortejaar] => N/A
+            [nationality] => Yes - Ja - Oui
+            [country] => BE
+            [address] => Vietnam|Ho Chi Minh City,Bien Hoa,Hue,Hanoi
+
+            [city] => Barbados|Bridgetown,Warrens,Speightstown,Christchurch
+
+            [zip] => 123456
+            [fisco_flash] => N/A
+            [code] => Too many to mention
+            [user_password] => Zo52a97510udh777
+            [active_num_cycles] => 0
+            [pack_id] => 18
+            [rss_token] => 
+        )
+
+    [1] => stdClass Object
+        (
+            [ID] => 75
+            [user_login] => carpinteyrolrj
+            [user_email] => Porpaperi@357merry.com
+            [user_registered] => 28/04/2013
+            [display_name] => carpinteyrolrj
+            [trial_on] => 0
+            [trial_cost] => 0
+            [trial_duration] => 0
+            [trial_duration_type] => d
+            [trial_num_cycles] => 0
+            [duration] => 1
+            [duration_type] => y
+            [amount] => 3000.00
+            [currency] => USD
+            [join_date] => N/A
+            [last_pay_date] => N/A
+            [expire_date] => N/A
+            [membership_type] => big_company_over_250_people_working_
+            [status] => Inactive
+            [payment_type] => 
+            [subscribed] => 
+            [autoresponder_notified] => 
+            [username] => carpinteyrolrj
+            [email] => Porpaperi@357merry.com
+            [language] => English
+            [cotisations_2013] => N/A
+            [civilit] => N/A
+            [first_name] => carpinteyrolrj
+            [last_name] => carpinteyrolrj
+            [company] => google
+            [phone] => 123456
+            [gender] => Male - Man - Homme
+            [birthyear_geboortejaar] => 2005
+            [nationality] => Yes - Ja - Oui
+            [country] => BE
+            [address] => Belize|Orange Walk,Punta Gorda,Belize City,San Ignacio,Belize,Belmopan
+
+            [city] => The Gambia|Banjul,Kanifing
+
+            [zip] => 123456
+            [fisco_flash] => N/A
+            [code] => Too many to mention
+            [user_password] => S+GWJYVGRhmqTVVV
+            [active_num_cycles] => 0
+            [pack_id] => 18
+            [rss_token] => 
+        )
+
+)
+</pre>
+

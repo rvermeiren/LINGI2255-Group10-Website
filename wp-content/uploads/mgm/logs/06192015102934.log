@@ -1,0 +1,233 @@
+
+1. [19-06-2015 10:29:34]: 
+----------------------------------------------------------------------------------------------------
+export_users : <pre>Array
+(
+    [0] => stdClass Object
+        (
+            [ID] => 7089
+            [user_login] => testmagicmemberuser1132457300
+            [user_email] => testmagicmemberuser11@gmail.com
+            [user_registered] => 15/10/2014
+            [display_name] => testmagicmemberuser1132457300
+            [trial_on] => 0
+            [trial_cost] => 0
+            [trial_duration] => 0
+            [trial_duration_type] => d
+            [trial_num_cycles] => 0
+            [duration] => 1
+            [duration_type] => y
+            [amount] => 15.00
+            [currency] => EUR
+            [join_date] => 15/10/2014
+            [last_pay_date] => 15/10/2014
+            [expire_date] => 15/10/2015
+            [membership_type] => individual
+            [status] => Pending
+            [payment_type] => one-time
+            [subscribed] => 
+            [autoresponder_notified] => 
+            [stay_in_touch_with_our_newsletter] => Yes
+            [username] => N/A
+            [email] => testmagicmemberuser11@gmail.com
+            [language] => English
+
+            [civilit] => Mrs
+            [first_name] => testmagic
+            [last_name] => memberuser11
+            [company] => wecitizens
+            [zip] => 1060
+            [payment_info_module] => manualpay
+            [payment_info_txn_type] => subscription
+            [payment_info_subscr_id] => 
+            [payment_info_txn_id] => 
+            [user_password] => ub9emYzgiqUqQ97giHReuZ60miMb8XX6
+            [pack_id] => 26
+            [transaction_id] => 7925
+            [status_str] => Last payment is pending
+            [rss_token] => 
+        )
+
+    [1] => stdClass Object
+        (
+            [ID] => 7098
+            [user_login] => jean-paul94599900
+            [user_email] => jean-paul@pinon.be
+            [user_registered] => 15/10/2014
+            [display_name] => jean-paul94599900
+            [trial_on] => 0
+            [trial_cost] => 0
+            [trial_duration] => 0
+            [trial_duration_type] => d
+            [trial_num_cycles] => 0
+            [duration] => 1
+            [duration_type] => y
+            [amount] => 35
+            [currency] => EUR
+            [join_date] => 15/10/2014
+            [last_pay_date] => 15/10/2014
+            [expire_date] => 15/10/2015
+            [membership_type] => political_directory_licence
+            [status] => Pending
+            [payment_type] => one-time
+            [subscribed] => 
+            [autoresponder_notified] => 
+            [stay_in_touch_with_our_newsletter] => Yes
+            [username] => N/A
+            [email] => jean-paul@pinon.be
+            [language] => Nederlands
+            [civilit] => 
+Mr
+            [first_name] => Jean-Paul
+            [last_name] => Pinon
+            [company] => 
+            [zip] => 1180
+            [payment_info_module] => manualpay
+            [payment_info_txn_type] => subscription
+            [payment_info_subscr_id] => 
+            [payment_info_txn_id] => 
+            [user_password] => Tqh+6bKqubtsttvv
+            [pack_id] => 33
+            [transaction_id] => 7935
+            [status_str] => Last payment is pending
+            [rss_token] => 
+        )
+
+    [2] => stdClass Object
+        (
+            [ID] => 7506
+            [user_login] => eddy.vancraen82108100
+            [user_email] => eddy.vancraen@skynet.be
+            [user_registered] => 07/11/2014
+            [display_name] => eddy.vancraen82108100
+            [trial_on] => 0
+            [trial_cost] => 0
+            [trial_duration] => 0
+            [trial_duration_type] => d
+            [trial_num_cycles] => 0
+            [duration] => 1
+            [duration_type] => y
+            [amount] => 35
+            [currency] => EUR
+            [join_date] => 07/11/2014
+            [last_pay_date] => 07/11/2014
+            [expire_date] => 07/11/2015
+            [membership_type] => political_directory_licence
+            [status] => Pending
+            [payment_type] => one-time
+            [subscribed] => 
+            [autoresponder_notified] => 
+            [stay_in_touch_with_our_newsletter] => Yes
+            [username] => N/A
+            [email] => eddy.vancraen@skynet.be
+            [language] => Nederlands
+            [civilit] => 
+Mr
+            [first_name] => Eddy
+            [last_name] => Van Craen
+            [company] => EVEC Consulting
+            [zip] => 3150
+            [payment_info_module] => manualpay
+            [payment_info_txn_type] => subscription
+            [payment_info_subscr_id] => 
+            [payment_info_txn_id] => 
+            [user_password] => PNnFpSA1MLHgHHnn
+            [pack_id] => 33
+            [transaction_id] => 8489
+            [status_str] => Last payment is pending
+            [rss_token] => 
+        )
+
+    [3] => stdClass Object
+        (
+            [ID] => 7777
+            [user_login] => fabrice07423900
+            [user_email] => fabrice@wazo.lu
+            [user_registered] => 10/12/2014
+            [display_name] => fabrice07423900
+            [trial_on] => 0
+            [trial_cost] => 0
+            [trial_duration] => 0
+            [trial_duration_type] => d
+            [trial_num_cycles] => 0
+            [duration] => 1
+            [duration_type] => y
+            [amount] => 35
+            [currency] => EUR
+            [join_date] => 10/12/2014
+            [last_pay_date] => 10/12/2014
+            [expire_date] => 10/12/2015
+            [membership_type] => political_directory_licence
+            [status] => Pending
+            [payment_type] => one-time
+            [subscribed] => 
+            [autoresponder_notified] => 
+            [stay_in_touch_with_our_newsletter] => Yes
+            [username] => N/A
+            [email] => fabrice@wazo.lu
+            [language] => Français
+            [civilit] => 
+Mr
+            [first_name] => Fabrice
+            [last_name] => Cara
+            [company] => Wazo
+            [zip] => 4000
+            [payment_info_module] => manualpay
+            [payment_info_txn_type] => subscription
+            [payment_info_subscr_id] => 
+            [payment_info_txn_id] => 
+            [user_password] => QVtNpcCX
+            [pack_id] => 33
+            [transaction_id] => 8932
+            [status_str] => Last payment is pending
+            [rss_token] => 
+        )
+
+    [4] => stdClass Object
+        (
+            [ID] => 8644
+            [user_login] => alexandre64266000
+            [user_email] => alexandre@typhus.eu
+            [user_registered] => 14/05/2015
+            [display_name] => alexandre64266000
+            [trial_on] => 0
+            [trial_cost] => 0
+            [trial_duration] => 0
+            [trial_duration_type] => d
+            [trial_num_cycles] => 0
+            [duration] => 1
+            [duration_type] => y
+            [amount] => 15.00
+            [currency] => EUR
+            [join_date] => 14/05/2015
+            [last_pay_date] => 14/05/2015
+            [expire_date] => 14/05/2016
+            [membership_type] => individual
+            [status] => Pending
+            [payment_type] => one-time
+            [subscribed] => 
+            [autoresponder_notified] => 
+            [stay_in_touch_with_our_newsletter] => N/A
+            [username] => N/A
+            [email] => alexandre@typhus.eu
+            [language] => Français
+            [civilit] => 
+Mr
+            [first_name] => Alexandre
+            [last_name] => Legrand
+            [company] => 
+            [zip] => 4000
+            [payment_info_module] => manualpay
+            [payment_info_txn_type] => subscription
+            [payment_info_subscr_id] => 
+            [payment_info_txn_id] => 
+            [user_password] => y6NKCct+sZ/DoooQ
+            [pack_id] => 26
+            [transaction_id] => 9322
+            [status_str] => Last payment is pending
+            [rss_token] => 
+        )
+
+)
+</pre>
+

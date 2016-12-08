@@ -1,0 +1,50 @@
+
+1. [18-05-2014 17:44:28]: 
+----------------------------------------------------------------------------------------------------
+paypal process_notify POST DATA:<pre>Array
+(
+    [mc_gross] => 15.00
+    [invoice] => 2388
+    [protection_eligibility] => Ineligible
+    [payer_id] => 4RYVQAMQ9DZTE
+    [tax] => 0.00
+    [payment_date] => 10:48:15 May 18, 2014 PDT
+    [payment_status] => Completed
+    [charset] => windows-1252
+    [first_name] => Philippe
+    [mc_fee] => 0.86
+    [notify_version] => 3.8
+    [custom] => 2388
+    [payer_status] => verified
+    [business] => Pinon@WeCitizens.be
+    [quantity] => 1
+    [verify_sign] => AlYBrrVUQ8wk2vJgfHJ6Yfx-7k1HApLzIQ1yw.RgT3CG6HSrq0VZoh6-
+    [payer_email] => decap_philippe@yahoo.fr
+    [txn_id] => 2KR6217827699312V
+    [payment_type] => instant
+    [last_name] => Decap
+    [receiver_email] => Pinon@WeCitizens.be
+    [payment_fee] => 
+    [receiver_id] => JYK4VL37Y683J
+    [txn_type] => web_accept
+    [item_name] => WeCitizens individual Subscription
+    [mc_currency] => EUR
+    [item_number] => 
+    [residence_country] => BE
+    [handling_amount] => 0.00
+    [transaction_subject] => 2388
+    [payment_gross] => 
+    [shipping] => 0.00
+    [ipn_track_id] => 6ca93899a2c22
+)
+</pre>
+
+2. [18-05-2014 17:44:28]: 
+----------------------------------------------------------------------------------------------------
+paypal process_notify GET DATA:<pre>Array
+(
+    [module] => mgm_paypal
+    [method] => payment_notify
+)
+</pre>
+

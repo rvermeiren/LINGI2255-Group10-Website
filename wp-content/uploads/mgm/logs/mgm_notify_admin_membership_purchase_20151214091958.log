@@ -1,0 +1,13 @@
+
+2. [2015-12-14 09:19:58 UTC]: 
+----------------------------------------------------------------------------------------------------
+mgm_notify_admin - context: membership_purchase, enabled: 1, admin_email: info@wecitizens.be, subject: [WeCitizens] Admin Notification - philippe.decap@gmail.com purchased membership: individual_as_honorary_member_ [25] - [Pending], message: User display name: philippe.decap75474400<br />
+						User email: philippe.decap@gmail.com<br />
+						User ID: 9735<br />
+						Membership Type: individual_as_honorary_member_<br />
+						New status: Pending<br />
+						Status message: Last payment is pending<br />
+						Subscription period: 1 year<br />
+						Subscription amount: 50.00 EUR<br />
+						Payment Mode: one-time
+

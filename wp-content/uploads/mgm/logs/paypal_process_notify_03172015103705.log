@@ -1,0 +1,35 @@
+
+1. [17-03-2015 10:37:05]: 
+----------------------------------------------------------------------------------------------------
+paypal process_notify POST DATA:<pre>Array
+(
+    [txn_type] => subscr_eot
+    [subscr_id] => I-GT63PXDD3DXJ
+    [last_name] => jacobs
+    [residence_country] => BE
+    [item_name] => WeCitizens manager, independent worker Subscription
+    [mc_currency] => EUR
+    [business] => Pinon@WeCitizens.be
+    [verify_sign] => AfNOiorqy6bHGmXQkCs0dycZtlv4Aflla1rklWJ7VkK917zISqC8Slb3
+    [payer_status] => unverified
+    [payer_email] => christian.m.jacobs@gmail.com
+    [first_name] => christian
+    [receiver_email] => Pinon@WeCitizens.be
+    [payer_id] => M4R5YPGGPXNCG
+    [invoice] => 1071
+    [custom] => 1071
+    [charset] => windows-1252
+    [notify_version] => 3.8
+    [ipn_track_id] => ba14f52b4a0c5
+)
+</pre>
+
+2. [17-03-2015 10:37:05]: 
+----------------------------------------------------------------------------------------------------
+paypal process_notify GET DATA:<pre>Array
+(
+    [module] => mgm_paypal
+    [method] => payment_notify
+)
+</pre>
+

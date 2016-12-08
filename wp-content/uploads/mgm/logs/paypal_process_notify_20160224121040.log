@@ -1,0 +1,51 @@
+
+1. [2016-02-24 12:10:40 UTC]: 
+----------------------------------------------------------------------------------------------------
+paypal process_notify POST DATA:<pre>Array
+(
+    [mc_gross] => 15.00
+    [invoice] => 9371
+    [protection_eligibility] => Ineligible
+    [payer_id] => UNCLLKG335756
+    [tax] => 0.00
+    [payment_date] => 04:22:13 Feb 24, 2016 PST
+    [payment_status] => Completed
+    [charset] => windows-1252
+    [first_name] => Mathieu
+    [mc_fee] => 0.86
+    [notify_version] => 3.8
+    [custom] => 9371
+    [payer_status] => unverified
+    [business] => Pinon@WeCitizens.be
+    [quantity] => 1
+    [verify_sign] => ASXdDrlbTVyCpgzeV32eDNNYww9lAbccBfuTcFgq-0yWSiuEsZnYBOwU
+    [payer_email] => mathieu.gillion@edu.vlerick.com
+    [txn_id] => 0EU8133577729364T
+    [payment_type] => instant
+    [last_name] => Gillion
+    [receiver_email] => Pinon@WeCitizens.be
+    [payment_fee] => 
+    [receiver_id] => JYK4VL37Y683J
+    [txn_type] => web_accept
+    [item_name] => WeCitizens individual Subscription
+    [mc_currency] => EUR
+    [item_number] => 
+    [residence_country] => BE
+    [receipt_id] => 4314-1818-1831-9825
+    [handling_amount] => 0.00
+    [transaction_subject] => 
+    [payment_gross] => 
+    [shipping] => 0.00
+    [ipn_track_id] => 9eaf4cc354945
+)
+</pre>
+
+2. [2016-02-24 12:10:40 UTC]: 
+----------------------------------------------------------------------------------------------------
+paypal process_notify GET DATA:<pre>Array
+(
+    [module] => mgm_paypal
+    [method] => payment_notify
+)
+</pre>
+

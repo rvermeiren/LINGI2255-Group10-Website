@@ -1,0 +1,13 @@
+
+9. [2016-09-02 11:55:59 UTC]: 
+----------------------------------------------------------------------------------------------------
+mgm_notify_admin - context: membership_purchase, enabled: 1, admin_email: info@wecitizens.be, subject: [WeCitizens] Admin Notification - laurent@wex.be purchased membership: political_directory_licence [33] - [Active], message: User display name: laurent70587400<br />
+						User email: laurent@wex.be<br />
+						User ID: 10437<br />
+						Membership Type: political_directory_licence<br />
+						New status: Active<br />
+						Status message: Last payment was successful<br />
+						Subscription period: 1 year<br />
+						Subscription amount: 35 EUR<br />
+						Payment Mode: one-time
+

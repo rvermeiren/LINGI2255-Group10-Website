@@ -1,0 +1,35 @@
+
+1. [24-07-2015 10:21:54]: 
+----------------------------------------------------------------------------------------------------
+paypal process_notify POST DATA:<pre>Array
+(
+    [txn_type] => subscr_eot
+    [subscr_id] => I-X9YJYC0U6CT1
+    [last_name] => Van denbempt
+    [residence_country] => BE
+    [item_name] => WeCitizens individual Subscription
+    [mc_currency] => EUR
+    [business] => Pinon@WeCitizens.be
+    [verify_sign] => AWL4v2TiBImMRWiXWgEa29WaPMvqA2kWysPpiNqopRiiijhSOQtCiaHQ
+    [payer_status] => unverified
+    [payer_email] => paul.van.denbempt@skynet.be
+    [first_name] => Paul
+    [receiver_email] => Pinon@WeCitizens.be
+    [payer_id] => DXERYWUGR35TQ
+    [invoice] => 199
+    [custom] => 199
+    [charset] => windows-1252
+    [notify_version] => 3.8
+    [ipn_track_id] => b55c71fa45522
+)
+</pre>
+
+2. [24-07-2015 10:21:54]: 
+----------------------------------------------------------------------------------------------------
+paypal process_notify GET DATA:<pre>Array
+(
+    [module] => mgm_paypal
+    [method] => payment_notify
+)
+</pre>
+

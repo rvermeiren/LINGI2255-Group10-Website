@@ -1,0 +1,78 @@
+
+1. [20-05-2013 15:41:05]: 
+----------------------------------------------------------------------------------------------------
+<pre>Array
+(
+    [0] => stdClass Object
+        (
+            [ID] => 10
+            [display_name] => Adelin Remy
+            [user_email] => adelinremy@hotmail.com
+        )
+
+    [1] => stdClass Object
+        (
+            [ID] => 32
+            [display_name] => Blaude
+            [user_email] => jean-marie.blaude@euphonynet.be
+        )
+
+    [2] => stdClass Object
+        (
+            [ID] => 24
+            [display_name] => caeymaex
+            [user_email] => jeancaeymaex@gmail.com
+        )
+
+    [3] => stdClass Object
+        (
+            [ID] => 34
+            [display_name] => Cuijpers
+            [user_email] => christian.cuijpers@creg.be
+        )
+
+    [4] => stdClass Object
+        (
+            [ID] => 27
+            [display_name] => Gennart
+            [user_email] => pegennart@belgacom.net
+        )
+
+    [5] => stdClass Object
+        (
+            [ID] => 2
+            [display_name] => Jean-Paul Pinon
+            [user_email] => jp@pinon.be
+        )
+
+    [6] => stdClass Object
+        (
+            [ID] => 33
+            [display_name] => Koninckx
+            [user_email] => brigitte.koninckx@gmail.com
+        )
+
+    [7] => stdClass Object
+        (
+            [ID] => 36
+            [display_name] => makikine
+            [user_email] => makikine@hotmail.com
+        )
+
+    [8] => stdClass Object
+        (
+            [ID] => 35
+            [display_name] => Vanlede
+            [user_email] => alain.van.lede@skynet.be
+        )
+
+    [9] => stdClass Object
+        (
+            [ID] => 3
+            [display_name] => vbaguet
+            [user_email] => vbaguet@eurasianfinance.com
+        )
+
+)
+</pre>
+

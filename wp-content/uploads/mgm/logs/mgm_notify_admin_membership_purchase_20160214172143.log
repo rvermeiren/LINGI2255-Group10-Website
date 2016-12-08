@@ -1,0 +1,13 @@
+
+2. [2016-02-14 17:21:43 UTC]: 
+----------------------------------------------------------------------------------------------------
+mgm_notify_admin - context: membership_purchase, enabled: 1, admin_email: info@wecitizens.be, subject: [WeCitizens] Admin Notification - robertvanpaemel@me.com purchased membership: manager_independent_worker_politician [24] - [Pending], message: User display name: robertvanpaemel56953400<br />
+						User email: robertvanpaemel@me.com<br />
+						User ID: 10011<br />
+						Membership Type: manager_independent_worker_politician<br />
+						New status: Pending<br />
+						Status message: Last payment is pending<br />
+						Subscription period: 1 year<br />
+						Subscription amount: 50.00 EUR<br />
+						Payment Mode: one-time
+

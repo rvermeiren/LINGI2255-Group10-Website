@@ -1,0 +1,46 @@
+
+1. [16-07-2014 11:00:06]: 
+----------------------------------------------------------------------------------------------------
+paypal process_notify POST DATA:<pre>Array
+(
+    [transaction_subject] => WeCitizens small company (< 50 people) Subscription
+    [payment_date] => 04:00:03 Jul 16, 2014 PDT
+    [txn_type] => subscr_payment
+    [subscr_id] => I-MNAWWW8UUEWU
+    [last_name] => de Lovinfosse
+    [residence_country] => BE
+    [item_name] => WeCitizens small company (< 50 people) Subscription
+    [payment_gross] => 
+    [mc_currency] => EUR
+    [business] => Pinon@WeCitizens.be
+    [payment_type] => instant
+    [protection_eligibility] => Ineligible
+    [verify_sign] => AZNdAST168vysDhK-cGY.po1j7d7APtLvRzfA9QURZulEAI5J62gAnrY
+    [payer_status] => unverified
+    [payer_email] => stephane@degeest-audit.be
+    [txn_id] => 5H940949K8626032A
+    [receiver_email] => Pinon@WeCitizens.be
+    [first_name] => Stéphane
+    [invoice] => 186
+    [payer_id] => 7HGJR6UZNEZQE
+    [receiver_id] => JYK4VL37Y683J
+    [payment_status] => Completed
+    [payment_fee] => 
+    [mc_fee] => 10.55
+    [mc_gross] => 300.00
+    [custom] => 186
+    [charset] => windows-1252
+    [notify_version] => 3.8
+    [ipn_track_id] => 66dee93f7496f
+)
+</pre>
+
+2. [16-07-2014 11:00:06]: 
+----------------------------------------------------------------------------------------------------
+paypal process_notify GET DATA:<pre>Array
+(
+    [module] => mgm_paypal
+    [method] => payment_notify
+)
+</pre>
+

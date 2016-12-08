@@ -1,0 +1,906 @@
+<!--
+
+	Template Name: MyMail
+	Name: Newsletter
+	Template URI: http://rxa.li/mymail
+	Description: This is the base Newsletter Template which is included in the <a href="http://rxa.li/mymail">MyMail Wordpress Plugin</a>. To get more check out the <a href="http://rxa.li/mymailtemplates">other templates</a>
+	Author: revaxarts
+	Author URI: http://revaxarts-themes.com
+	Version: 4.0
+
+-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width">
+<title>{subject}</title>
+</head>
+<body>
+<style type="text/css">
+                #outlook a{padding:0;}
+                body{width:100% !important;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;margin:0;padding:0;}
+                .ExternalClass{width:100%;}
+                .ExternalClass,.ExternalClass p,.ExternalClass span,.ExternalClass font,.ExternalClass td,.ExternalClass div{line-height:100%;}
+                .bodytbl{margin:0;padding:0;width:100% !important;}
+                img{outline:none;text-decoration:none;-ms-interpolation-mode:bicubic;display:block;max-width:100%;}
+                a img{border:none;}
+                p{margin:1em 0;}
+                a
+                table{border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt;}
+                table td{border-collapse:collapse;}
+                .o-fix table,.o-fix td{mso-table-lspace:0pt;mso-table-rspace:0pt;}
+               
+                body{background-color:#F3F4F4;}
+                table{font-family:Helvetica,Arial,sans-serif;font-size:12px;color:#585858;}
+                div{line-height:24px;color:#585858;}
+                td,tr{padding:0;}
+                ul{margin-top:24px;margin-bottom:24px;}
+                li{list-style:disc;line-height:24px;}
+               
+                a{color:#5ca8cd;text-decoration:none;padding:2px 0px;}
+                a:link{color:#5ca8cd;}
+                a:visited{color:#5ca8cd;}
+                a{color:#BD1622 !important; text-decoration:none !important; padding:2px 0px; font-weight:500 !important;}
+ 
+                a:link{color:#BD1622;}
+                a:visited{color:#BD1622;}
+                a:hover{color:#666666 !important;}
+                a.button {
+                  display:block;
+                  float:right;
+                  margin: 10px 10pxem 10px 100px;
+                  border: solid 0.075em #BD1622;
+                  border-radius: 0.6em ;
+                  background-color: #eeeeee;
+                  padding: 0.55em 0.5em 0.45em 0.5em;
+                  vertical-align: text-top;
+                  text-align: center;
+                  font-family: Helvetica,Arial,sans-serif;
+                  font-size: 24px;
+                  color: #BD1622;
+                  font-weight: 200;
+                               }
+  a.buttongrey {
+                  display:block;
+                  float:right;
+                  margin: 0px;
+                  border: solid 0.075em #999999;
+                  border-radius: 0.6em ;
+                  background-color: #eeeeee;
+                  padding: 0.55em 0.5em 0.45em 0.5em;
+                  vertical-align: text-top;
+                  text-align: center;
+                  font-family: Helvetica,Arial,sans-serif;
+                  font-size: 16px;
+                  color: #BD1622;
+                  font-weight: 200;
+                               }
+  a:hover{color:#5ca8cd;}
+               
+                .h div{font-family:Helvetica,Arial,sans-serif;font-size:20px;letter-spacing:-1px;margin-bottom:16px;margin-top:4px;line-height:24px;}
+                h1,h2,h3,h4,h5,h6,h1 div,h2 div,h3 div,h4 div,h5 div,h6 div,.h1,.h2,.h3,.h4,.h5,.h6,.h div,.h1 div,.h2 div,.h3 div,.h4 div,.h5 div,.h6 div,.h div{color:#3E4043;}
+                h1 a,h2 a,h3 a,h4 a,h5 a,h6 a,h1 div a,h2 div a,h3 div a,h4 div a,h5 div a,h6 div a,.h1 a,.h2 a,.h3 a,.h4 a,.h5 a,.h6 a,.h div a,.h1 div a,.h2 div a,.h3 div a,.h4 div a,.h5 div a,.h6 div a,.h div a{color:#3E4043;}
+                h1 a:active,h2 a:active,h3 a:active,h4 a:active,h5 a:active,h6 a:active{color:#3E4043 !important;}
+                h1 a:visited,h2 a:visited,h3 a:visited,h4 a:visited,h5 a:visited,h6 a:visited{color:#3E4043 !important;}
+                h1 div {font-family:Helvetica,Arial,sans-serif;font-size:28px;letter-spacing:0px;margin-bottom:16px;margin-top:2px;line-height:30px; color:#222; font-weight: 500;}
+                h2 div {font-family:Helvetica,Arial,sans-serif;font-size:22px;letter-spacing:0;margin-top:2px;line-height:30px; color:#555; font-weight: 400;}
+                h3 div {font-family:Helvetica,Arial,sans-serif;font-size:16px;letter-spacing:0;margin-top:2px;line-height:24px; color:#888; font-weight: 300;}
+                h4 div {font-family:Helvetica,Arial,sans-serif;font-size:16px;letter-spacing:0;margin-top:0px;line-height:24px; color:#FFF; font-weight: 300; font-style: italic;}
+ 
+ 
+ 
+                .wrap.header{border-top:1px solid #E8E8E8;}
+                .wrap.footer{border-bottom:1px solid #E8E8E8;}
+                .wrap.body,.wrap.header,.wrap.footer{background-color:#FFFFFF;border-right:1px solid #E8E8E8;border-left:1px solid #E8E8E8;}
+                .padd{width:24px;}
+               
+                tbody.encart {background-color: #666;}             
+                multi.signature {font-family:Helvetica,Arial,sans-serif;font-size:12px;letter-spacing:0;margin-top:2px;line-height:14px; color:#eee; font-weight: 300;}
+               
+               
+                .small div{font-size:11px;line-height:18px;}
+  .btn{margin-top:0px;display:block; width: 100%;}
+                .btn img,.social img{display:inline;}
+                .toc div{line-height:18px;}
+                .subline div{font-size:16px;color:#3E4043;letter-spacing:-1px;}
+                div.preheader{line-height:0px;font-size:0px;height:0px;display:none !important;display:none;visibility:hidden;}
+               
+                @media only screen and (max-width: 480px) {
+                               body{-webkit-text-size-adjust:120% !important;-ms-text-size-adjust:120% !important;}
+                               td[class~=padd] {width:12px !important;}
+                               table[class~=wrap] {width:470px !important;}
+                               table[class~=wrap] table{width:100% !important;}
+                               table[class~=wrap] img {max-width:100% !important;height:auto !important;}
+                               table[class~=wrap] .m-100{;width:100% !important;}
+                               [class~=m-0]{width:0;display:none;}
+                               [class~=m-b]{display:block;width:100% !important;margin-bottom: 24px !important;}
+                               [class~=m-1-2]{max-width:264px !important;}
+                               [class~=m-1-3]{max-width:168px !important;}
+                               [class~=m-1-4]{max-width:120px !important;}
+                }
+               
+                @media only screen and (max-width: 320px) {
+                               table[class~=wrap]{width:310px !important;}
+                               table[class~=wrap] .m-mac{width:229px !important;margin-left:26px;}
+                               table[class~=wrap] .m-mac-h{height:129px !important;}
+                               table[class~=wrap] .m-mac-b{width:298px !important;margin-left:3px;}
+                }
+               
+</style>
+<table class="bodytbl" cellpadding="0" cellspacing="0" width="100%"><tbody><tr>
+<td align="center" background="">
+               
+                               <table class="wrap" cellpadding="0" cellspacing="0" width="600"><tbody><tr>
+<td height="24" align="center" valign="middle">
+                                                               <div class="preheader">{preheader}</div> <div class="small">
+<div><single label="preintro">{webversion} or {unsub}</single></div>
+<a name="top"></a>
+</div>
+                                               </td>
+                               </tr></tbody></table>
+<table class="wrap header" cellpadding="0" cellspacing="0" width="600"><tbody><tr>
+<td align="center" valign="top">
+                                                               <table cellpadding="0" cellspacing="0" width="100%"><tbody>
+<tr><td colspan="5" height="24">&nbsp;</td></tr>
+<tr>
+<td class="padd" width="24">&nbsp;</td>
+                                                                              <td align="left" valign="middle">
+                                                                                              <img title="" class="-handle" alt="logo_wecitizens_2.5" src="http://www.wecitizens.be/wp-content/uploads/Logo_FR_print-300x54.jpg" editable="" data-id="9763" label="Logo" height="54" border="0" width="300">
+</td>
+                                                                              <td class="padd" width="24">&nbsp;</td>
+                                                                              <td class="invert toc" align="right" valign="middle">
+                                                                                              <div class="subline"></div>
+                                                                              </td>
+                                                                              <td class="padd" width="24">&nbsp;</td>
+                                                               </tr>
+<tr><td colspan="5" height="24">&nbsp;</td></tr>
+</tbody></table>
+</td>
+                               </tr></tbody></table>
+
+<modules>
+
+
+<module custom active class="module active ui-sortable-handle" label="Intro" active="display: block;" custom><table class="wrap body" cellpadding="0" cellspacing="0" width="600"><tbody>
+<tr><td colspan="3" height="12"></td></tr>
+<tr>
+<td class="padd" width="24">&nbsp;</td>
+                                               <td align="left" valign="top">
+              <table cellpadding="0" cellspacing="0" width="100%"><tbody><tr>
+<td valign="top">
+                                                                              <h1><div><single label="Headline">Bonjour {firstname}</single></div></h1>
+                                                                              <table class="m-b" align="left" cellpadding="0" cellspacing="0" width="100"><tbody><tr>
+<td class="m-1-3" align="left" valign="top">
+                                                                                              <img title="" class="-handle" style="max-width: 100px;" alt="JPP-bottom" src="http://www.wecitizens.be/wp-content/uploads/JPP-bottom-90x90.jpg" editable="" data-id="9876" label="Image max width 100 pixel" height="100" border="0" width="100">
+</td>
+                                                                                                              </tr></tbody></table>
+<table align="right" cellpadding="0" cellspacing="0" width="430"><tbody><tr>
+<td align="left" valign="top">
+  <h2><div><single label="Intro Sentence">
+    Notre analyse porte sur l’exercice du droit de grève, qui est ‘sacré’ (pour ceux qui en font une religion).
+    Notre sondage montre que 83% de la population demande l’instauration d’un service minimum.
+    Que font les quatre ministres en charge de la mobilité (en-dehors de discours)&nbsp;?
+    Nous lançons un projet de ‘crowdfunding’... [<a href="#edito">lire la suite de l'edito ci-dessous</a>]...</single></div></h2>
+                                                                                              </td>
+                                                                                              </tr></tbody></table>
+</td>
+                                                               </tr></tbody></table>
+</td>
+                                               <td class="padd" width="24">&nbsp;</td>
+                               </tr>
+<tr><td colspan="3" height="12"></td></tr>
+</tbody></table>
+</module>
+
+<module custom active class="module active ui-sortable-handle" label="Seperator" active="display: block;" custom><table class="wrap body" cellpadding="0" cellspacing="0" width="600"><tbody>
+<tr><td colspan="3" height="12"></td></tr>
+<tr>
+<td class="padd" width="24">&nbsp;</td>
+                                               <td align="center"><table style="border-top-color: rgb(153, 153, 153); border-top-width: 1px; border-top-style: dotted;" cellpadding="0" cellspacing="0" width="100%"><tbody><tr><td height="23">&nbsp;</td></tr></tbody></table></td>
+                                               <td class="padd" width="24">&nbsp;</td>
+                                               </tr>
+</tbody></table>
+</module>
+
+<module custom active class="module active ui-sortable-handle" label="Full Size Image" active="display: block;" custom><table class="wrap body" cellpadding="0" cellspacing="0" width="600"><tbody><tr>
+<td align="center" valign="top">
+          <img title="" class="m-100" style="margin-top: 24px; max-width: 598px;" alt="Img-Narr-2-Newsletter-6" src="http://www.wecitizens.be/wp-content/uploads/Img-Narr-2-Newsletter-61-308x308.jpg" editable="" data-id="9340" label="Image max width 598 pixel" height="280" border="0" width="280">
+</td>
+                               </tr></tbody></table>
+</module>
+
+<module custom active class="module active ui-sortable-handle" label="1/1 Column" active="display: block;" custom auto data-auto="true"><table class="wrap body" cellpadding="0" cellspacing="0" width="600"><tbody>
+<tr><td colspan="3" height="12"></td></tr>
+<tr>
+<td class="padd" width="24">&nbsp;</td>
+                                               <td align="left" valign="top">
+                              
+                                                                                              <h2><div><single label="Headline">Un service minimum en cas de grève?</single></div></h2>
+                                                                                              <h3><div><single label="Intro Sentence">Li Europan lingu es es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam <a href="#">En savoir plus</a></single></div></h3>
+              <div class="btn"><buttons class="ui-sortable" style="width: 100%;"><a class="buttongrey" href="http://www.wecitizens.be" target="_blank" editable="" label="Button">Je soutiens cette campagne</a>
+                                                                                              </buttons></div>
+                                               </td>
+                                               <td class="padd" width="24">&nbsp;</td>
+                               </tr>
+<tr><td colspan="3" height="32">&nbsp;</td></tr>
+</tbody></table>
+</module>
+
+<module custom active class="module active ui-sortable-handle" label="1/3 Image on the Right" active="display: block" custom auto data-auto="true"><table class="wrap body" cellpadding="0" cellspacing="0" width="600"><tbody class="encart" ="background: rgb(119, 119, 119);">
+ 
+<tr><td height="20"></td></tr>
+<tr>
+<td align="center" valign="top">
+                                                               <table cellpadding="0" cellspacing="0" width="100%"><tbody><tr>
+<td class="padd" width="20">&nbsp;</td>
+                                                                              <td valign="top">
+                              
+                                                                              <table class="m-b" align="right" cellpadding="0" cellspacing="0" width="120"><tbody><tr>
+<td class="m-1-3" align="right" valign="top">
+                                                                                              <img title="" class="-handle" style="max-width: 168px;" alt="36000" src="http://www.wecitizens.be/wp-content/uploads/36000-140x140.jpg" editable="" data-id="9306" label="Image max width 168 pixel" height="140" border="0" width="140">
+</td>
+                                                                                                              </tr></tbody></table>
+                      <table align="left" cellpadding="0" cellspacing="0" width="400"><tbody><tr>
+<td align="left" valign="top">
+<h4 style="margin-top: 0px;"><div><single label="Headline"><span style="line-height: 40px; font-size: 34px;">C’est le montant de dette publique avec lequel naît chaque enfant.</span></single></div></h4>
+                                                                                             
+                                                                              </td>
+                                                                                              </tr></tbody></table>
+</td>
+                              
+                                                                              <td class="padd" width="20">&nbsp;</td>
+                                                               </tr></tbody></table>
+</td>
+                               </tr>
+<tr><td height="20"></td></tr>
+</tbody></table>
+</module>
+
+<module custom active class="module active ui-sortable-handle" label="Full Size Image" active="display: block;" custom><table class="wrap body" cellpadding="0" cellspacing="0" width="600"><tbody><tr>
+<td align="center" valign="top">
+                                                               <img title="" class="m-100" style="margin-top: 24px; max-width: 598px;" alt="Img-Narr-6-Outils-6" src="http://www.wecitizens.be/wp-content/uploads/Img-Narr-6-Outils-61-264x264.jpg" editable="" data-id="9342" label="Image max width 598 pixel" height="240" border="0" width="240">
+</td>
+                               </tr></tbody></table>
+</module>
+
+<module custom active class="module active ui-sortable-handle" ="display: block;" label="1/1 Column" active="display: block;" custom auto data-auto="true">
+  <table class="wrap body" cellpadding="0" cellspacing="0" width="600">
+    <tbody>
+      <tr>
+        <td colspan="3" height="12"></td>
+      </tr>
+      <tr><td class="padd" width="24">&nbsp;</td>
+                                               <td align="left" valign="top">
+                              
+                                                                                              <h2><div><single label="Headline">FiscoFlash</single></div></h2>
+                                                                                              <h3><div><single label="Intro Sentence">Notre bulletin d’actualité fiscale vous informe des évolutions de la règlementation. Le FiscoFlash vous indique les chantiers en cours, et vous guide vers la meilleure documentation concernant les nouveautés. Ce numéro traite d’impôt des sociétés (avantages en nature, déduction pour capital à risque, etc), impôt des personnes physiques (indemnités kilométriques, bénévoles, etc), TVA, précompte mobilier et divers.</single></div></h3>
+              <div class="btn"><buttons class="ui-sortable" style="width: 100%;"><a class="buttongrey" href="http://www.wecitizens.be/Fiscoflash-Fr/FF7/150218-FR-FiscoFlash.pdf" target="_blank" editable="" label="Button">En savoir plus</a>
+                                                                                              </buttons></div>
+                                               </td>
+                                               <td class="padd" width="24">&nbsp;</td>
+                               </tr>
+      <tr>
+        <td colspan="3" height="32">&nbsp;</td>
+      </tr>
+    </tbody>
+  </table>
+
+</module>
+
+<module custom active class="module active ui-sortable-handle" ="display: block;" label="1/3 Image on the Right" active="display: block" custom auto data-auto="true">
+  <table class="wrap body" cellpadding="0" cellspacing="0" width="600">
+    <tbody class="encart" style="background: rgb(119, 119, 119);">
+      <tr>
+        <td height="20"></td>
+      </tr>
+      <tr><td align="center" valign="top">
+                                                               <table cellpadding="0" cellspacing="0" width="100%"><tbody><tr><td class="padd" width="20">&nbsp;</td>
+                                                                              <td valign="top">
+                              
+                                                                              <table class="m-b" align="right" cellpadding="0" cellspacing="0" width="120"><tbody><tr><td class="m-1-3" align="right" valign="top">
+                                                                                              <img title="" class="-handle" style="max-width: 168px;" alt="650" src="http://www.wecitizens.be/wp-content/uploads/Screenshot-2015-01-05-16.02.411-180x130.png" editable="" data-id="32239" label="Image max width 168 pixel" height="109" border="0" width="150"></td>
+                      </tr></tbody></table><table align="left" cellpadding="0" cellspacing="0" width="400"><tbody><tr><td align="left" valign="top"><h4 style="margin-top: 0px;"><div><single label="Headline"><span style="line-height: 32px; font-size: 24px;">C'est le nombre de fois que l’article sur <a href="/?cat_ID=36"><span style="color: rgb(255, 255, 0);">la dévolution de la case de tête</span></a> <br>a été lu.</span></single></div></h4>
+                                                                                             
+                  
+                                                                              </td>
+                                                                                              </tr></tbody></table></td>
+                              
+                                                                              <td class="padd" width="20">&nbsp;</td>
+                                                               </tr></tbody></table></td>
+                               </tr>
+      <tr>
+        <td height="20"></td>
+      </tr>
+    </tbody>
+  </table>
+
+</module>
+
+<module custom active class="module active ui-sortable-handle" ="display: block;" label="Full Size Image" active="display: block;" custom>
+  <table class="wrap body" cellpadding="0" cellspacing="0" width="600">
+    <tbody>
+      <tr><td align="center" valign="top">
+          <img title="" class="m-100" style="margin-top: 24px; max-width: 598px;" alt="Img-Newsletter-PolDir-Header-interne" src="http://www.wecitizens.be/wp-content/uploads/Img-Newsletter-PolDir-Header-interne-548x308.jpg" editable="" data-id="32075" label="Image max width 598 pixel" height="280" border="0" width="500"></td>
+                               </tr>
+    </tbody>
+  </table>
+
+</module>
+
+<module custom active class="module active ui-sortable-handle" label="1/2 Column" active="display: block;" custom auto data-auto="true"><table class="wrap body" cellpadding="0" cellspacing="0" width="600"><tbody>
+<tr><td colspan="3" height="12"></td></tr>
+<tr>
+<td class="padd" width="24">&nbsp;</td>
+                                               <td align="left" valign="top">
+                                                                                              <h2><div><single label="Headline">Le Répertoire Politique belge 2.0 est disponible</single></div></h2>
+                                                                                              <h3><div><single label="Intro Sentence">Après son GPS électoral, 'NousCitoyens' met en ligne une banque de données sur les acteurs politiques. Elle révolutionne la transparence en politique grâce à ses nouvelles fonctionnalités, entre autres le filtre avec ses 27 critères de sélection. <a title="Suite de l'article" href="/?p=32219">Lire la suite</a>.</single></div></h3>
+             
+              <div class="btn"><buttons class="ui-sortable" style="width: 100%; padding-top: 20px;"><a class="button" style="margin-right: 40px;" href="http://www.wecitizens.be" editable="" label="Testez le Répertoire Politique maintenant!">Testez le Répertoire Politique maintenant!</a>
+                                                                                              </buttons></div>
+             
+             
+             
+             
+             
+             
+             
+             
+                                               </td>
+ 
+                                               <td class="padd" width="24">&nbsp;</td>
+                               </tr>
+<tr><td colspan="3" height="32">&nbsp;</td></tr>
+</tbody></table>
+</module>
+
+<module custom active class="module active ui-sortable-handle" ="display: block;" label="1/3 Image on the Right" active="display: block" custom auto data-auto="true">
+  <table class="wrap body" cellpadding="0" cellspacing="0" width="600">
+    <tbody class="encart">
+      <tr>
+        <td height="20"></td>
+      </tr>
+      <tr><td align="center" valign="top">
+                                                               <table cellpadding="0" cellspacing="0" width="100%"><tbody><tr><td class="padd" width="20">&nbsp;</td>
+                                                                              <td valign="top">
+                              
+                                                                              <table class="m-b" align="right" cellpadding="0" cellspacing="0" width="120"><tbody><tr><td class="m-1-3" align="right" valign="top">
+                                                                                              <img title="" class="-handle" style="max-width: 168px;" alt="Mossiat" src="http://www.wecitizens.be/wp-content/uploads/2013/03/Mossiat1-140x120.jpg" editable="" data-id="7714" label="Image max width 168 pixel" height="120" border="0" width="140"></td>
+                                                                                                              </tr></tbody></table><table align="left" cellpadding="0" cellspacing="0" width="400"><tbody><tr><td align="left" valign="top"><h4 style="margin-top: 0px;"><div><single label="Headline"><span style="line-height: 24px; font-size: 20px;">"Un outil d’information neutre et indépendant manquait au paysage. C’est un instrument précieux d’aide à la bonne décision."</span></single></div></h4>
+                                                                                              <div><multi class="signature" label="Body">Pierre Mossiat - CEO de Strictlyconfidential (éditions musicales)</multi></div>
+                                                                              </td>
+                                                                                              </tr></tbody></table></td>
+                              
+                                                                              <td class="padd" width="20">&nbsp;</td>
+                                                               </tr></tbody></table></td>
+                               </tr>
+      <tr>
+        <td height="20"></td>
+      </tr>
+    </tbody>
+  </table>
+
+</module>
+
+<module custom active class="module active ui-sortable-handle" ="display: block;" label="Full Size Image" active="display: block;" custom>
+  <table class="wrap body" cellpadding="0" cellspacing="0" width="600">
+    <tbody>
+      <tr><td align="center" valign="top">
+          <img title="" class="m-100" style="margin-top: 24px; max-width: 598px;" alt="Img-Narr-12-Améliorer-6" src="http://www.wecitizens.be/wp-content/uploads/Img-Narr-12-Améliorer-61-330x330.jpg" editable="" data-id="9348" label="Image max width 598 pixel" height="300" border="0" width="300"></td>
+                               </tr>
+    </tbody>
+  </table>
+
+</module>
+
+<module custom active class="module active ui-sortable-handle" ="display: block;" label="1/1 Column" active="display: block;" custom auto data-auto="true">
+  <table class="wrap body" cellpadding="0" cellspacing="0" width="600">
+    <tbody>
+      <tr>
+        <td colspan="3" height="12"></td>
+      </tr>
+      <tr><td class="padd" width="24">&nbsp;</td>
+                                               <td align="left" valign="top">
+                               
+                                                                                              <h2><div><single label="Headline">Devenez volontaire</single></div></h2>
+                                                                                              <h3><div><single label="Intro Sentence">Notre association est une initiative de la base, et ne pourra réaliser ses ambitions sans la collaborations de nombreux volontaires. Il y en a pour tous les goûts, jeunes et moins jeunes, permanents ou occasionnels. Actuellement tout se fait par télétravail : les volontaires sont recrutés sur toute la géographie du pays. Les principaux profils sont : (1) délégué ‘commercial’, (2) journaliste d’investigation, (3a) informaticien webmaster, (3b) informaticien programmeur, (4) animateur/médiateur sur médias sociaux, (5) encodeur (collecteur d’information), (6) comptable, (7a) juriste spécialisé dans les matières liées journalisme, (7b) juriste constitutionaliste, (8) expert en finance publique, (9) expert en gestion publique, (10) politologue, etc La fonction de ‘représentation commerciale’ peut faire l’objet d’une rémunération à la commission. Pour toute question, s’adresser à <a href="mailto:pinon@wecitizens.be">Jean-Paul Pinon</a>, adm.-dél. </single></div></h3>
+             
+      
+                                               </td>
+                                               <td class="padd" width="24">&nbsp;</td>
+                               </tr>
+      <tr>
+        <td colspan="3" height="32">&nbsp;</td>
+      </tr>
+    </tbody>
+  </table>
+
+</module>
+
+<module custom active class="module active ui-sortable-handle" ="display: block;" label="Seperator" active="display: block;" custom>
+  <table class="wrap body" cellpadding="0" cellspacing="0" width="600">
+    <tbody>
+      <tr>
+        <td colspan="3" height="12"></td>
+      </tr>
+      <tr><td class="padd" width="24">&nbsp;</td>
+                                               <td align="center"><table style="border-top-color: rgb(153, 153, 153); border-top-width: 1px; border-top-style: dotted;" cellpadding="0" cellspacing="0" width="100%"><tbody><tr><td height="23">&nbsp;</td></tr></tbody></table></td>
+                                               <td class="padd" width="24">&nbsp;</td>
+                                               </tr>
+    </tbody>
+  </table>
+
+</module>
+
+<module custom active class="module active ui-sortable-handle" ="display: block;" label="1/1 Column" active="display: block;" custom auto data-auto="true">
+  <table class="wrap body" cellpadding="0" cellspacing="0" width="600">
+    <tbody>
+      <tr>
+        <td colspan="3" height="12"></td>
+      </tr>
+      <tr><td class="padd" width="24">&nbsp;</td>
+                                               <td align="left" valign="top">
+                              
+                                                                                              <h2><div><single label="Headline">Humour</single></div></h2>
+                                                                                              <h3><div><single label="Intro Sentence">PENDANT une grève des éboueurs un monsieur a trouvé un moyen ingénieux d'assurer l'enlèvement de ses ordures. « Je les enveloppais dans un joli papier et les plaçais sur le siège avant au moment de garer ma voiture raconte-t-il. Et comme je prenais soin de laisser la glace ouverte pendant mon absence, le paquet disparaissait immanquablement. »</single></div></h3>
+              <div class="btn">
+                                                                                              </div>
+                                               </td>
+                                               <td class="padd" width="24">&nbsp;</td>
+                               </tr>
+      <tr>
+        <td colspan="3" height="32">&nbsp;</td>
+      </tr>
+    </tbody>
+  </table>
+
+</module>
+
+<module custom active class="module active ui-sortable-handle" ="display: block;" label="Seperator" active="display: block;" custom>
+  <table class="wrap body" cellpadding="0" cellspacing="0" width="600">
+    <tbody>
+      <tr>
+        <td colspan="3" height="12"></td>
+      </tr>
+      <tr><td class="padd" width="24">&nbsp;</td>
+                                               <td align="center"><table style="border-top-color: rgb(153, 153, 153); border-top-width: 1px; border-top-style: dotted;" cellpadding="0" cellspacing="0" width="100%"><tbody><tr><td height="23">&nbsp;</td></tr></tbody></table></td>
+                                               <td class="padd" width="24">&nbsp;</td>
+                                               </tr>
+    </tbody>
+  </table>
+
+</module>
+
+<module custom active class="module active ui-sortable-handle" ="display: block;" label="1/1 Column" active="display: block;" custom auto data-auto="true">
+  <table class="wrap body" cellpadding="0" cellspacing="0" width="600">
+    <tbody>
+      <tr>
+        <td colspan="3" height="12"></td>
+      </tr>
+      <tr><td class="padd" width="24">&nbsp;</td>
+                                               <td align="left" valign="top">
+                              
+              <a name="edito"><h2><div><single label="Headline">Suite de l'edito</single></div></h2></a>
+                                                                                              <h3><div><single label="Intro Sentence">Nous lançons un projet de ‘crowdfunding’ afin de réaliser, avec votre soutien, un sondage des acteurs politiques et d’autres actions exigeant de la clarté de la part de l’autorité public.
+Comme d’habitude, notre newsletter vous apporte le Fiscoflash, un aperçu des évolutions fiscales. Elle termine par en appel à volontaires, quelques phrases à méditer et une pointe d’humour.
+Malgré les turbulences politiques, j’espère que vous avez bien commencé l’année 2015 et qu’elle sera prospère pour tous, et en particulier pour NousCitoyens!</single></div></h3>
+              <div class="btn">
+                                                                                              </div>
+                                               </td>
+                                               <td class="padd" width="24">&nbsp;</td>
+                               </tr>
+      <tr>
+        <td colspan="3" height="32">&nbsp;</td>
+      </tr>
+    </tbody>
+  </table>
+
+</module>
+<module label="Full Size Image">
+  <table width="600" cellspacing="0" cellpadding="0" class="wrap body">
+    <tr><td valign="top" align="center">
+				<img src="http://dummy.newsletter-plugin.com/1196x672.jpg" class="m-100" alt="" title="" width="598" height="336" border="0" editable="" label="Image max width 598 pixel" /></td>
+		</tr>
+  </table>
+
+</module>
+
+
+<module label="Intro">
+  <table width="600" cellspacing="0" cellpadding="0" class="wrap body">
+    <tr>
+      <td height="12" colspan="3"></td>
+    </tr>
+    <tr><td width="24" class="padd"> </td>
+			<td valign="top" align="left">
+				<div class="h1"><single label="Headline">Lorem ipsum dolor sit amet consetetur!</single></div>
+				<div class="h2"><single label="Intro Sentence">Li Europan lingu es es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam </single></div>
+			</td>
+			<td width="24" class="padd"> </td>
+		</tr>
+    <tr>
+      <td height="12" colspan="3"></td>
+    </tr>
+  </table>
+
+</module>
+
+
+<module label="Separator">
+  <table width="600" cellspacing="0" cellpadding="0" class="wrap body">
+    <tr>
+      <td height="12" colspan="3"></td>
+    </tr>
+    <tr><td width="24" class="padd"> </td>
+			<td align="center"><table width="100%" cellpadding="0" cellspacing="0" class="separator"><tr><td height="23"> </td></tr></table></td>
+			<td width="24" class="padd"> </td>
+			</tr>
+  </table>
+
+</module>
+
+
+<module label="1/2 Floating Image Left" auto="">
+  <table width="600" cellspacing="0" cellpadding="0" class="wrap body">
+    <tr>
+      <td height="12"></td>
+    </tr>
+    <tr><td valign="top" align="center">
+				<table width="100%" cellpadding="0" cellspacing="0"><tr><td width="24" class="padd"> </td>
+		
+					<td valign="top" align="left">
+						<h1><single label="Headline">Headline goes here</single></h1>
+						<table width="288" cellspacing="0" cellpadding="0" align="left"><tr><td valign="top" align="left">
+						<img src="http://dummy.newsletter-plugin.com/528x360.jpg" class="m-b m-b-b" alt="" title="" width="264" height="180" border="0" editable="" label="Image max width 264 pixel" /></td><td width="24" class="padd m-0"></td></tr></table><multi label="Body"><p>
+							 Li Europan lingu es es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam <a href="#">vocabular</a>. Li lingues differe solmen in li grammatica, li pronunciation e li plu commun vocabules.
+							 Li Europan lingu es es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam <a href="#">vocabular</a>. Li lingues differe solmen in li grammatica, li pronunciation e li plu commun vocabules.
+							 Li Europan lingu es es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam <a href="#">vocabular</a>. Li lingues differe solmen in li grammatica, li pronunciation e li plu commun vocabules.
+						</p></multi><div class="btn"><buttons><a href="#" editable="" label="Read More Button"><img src="img/btn/more.png" width="94" height="30" alt="read more" title="read more" border="0" /></a>
+						</buttons></div>
+					</td>
+		
+					<td width="24" class="padd"> </td>
+				</tr></table></td>
+		</tr>
+    <tr>
+      <td height="12"></td>
+    </tr>
+  </table>
+
+</module>
+
+
+<module label="1/2 Floating Image Right" auto="">
+  <table width="600" cellspacing="0" cellpadding="0" class="wrap body">
+    <tr>
+      <td height="12"></td>
+    </tr>
+    <tr><td valign="top" align="center">
+				<table width="100%" cellpadding="0" cellspacing="0"><tr><td width="24" class="padd"> </td>
+		
+					<td valign="top" align="left">
+						<h1><single label="Headline">Headline goes here</single></h1>
+						<table width="288" cellspacing="0" cellpadding="0" align="right"><tr><td width="24" class="padd m-0"></td><td valign="top" align="right">
+						<img src="http://dummy.newsletter-plugin.com/528x360.jpg" class="m-b m-b-b" alt="" title="" width="264" height="180" border="0" editable="" label="Image max width 264 pixel" /></td></tr></table><multi label="Body"><p>
+							 Li Europan lingu es es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam <a href="#">vocabular</a>. Li lingues differe solmen in li grammatica, li pronunciation e li plu commun vocabules.
+							 Li Europan lingu es es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam <a href="#">vocabular</a>. Li lingues differe solmen in li grammatica, li pronunciation e li plu commun vocabules.
+							 Li Europan lingu es es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam <a href="#">vocabular</a>. Li lingues differe solmen in li grammatica, li pronunciation e li plu commun vocabules.
+						</p></multi><div class="btn"><buttons><a href="#" editable="" label="Read More Button"><img src="img/btn/more.png" width="94" height="30" alt="read more" title="read more" border="0" /></a>
+						</buttons></div>
+					</td>
+		
+					<td width="24" class="padd"> </td>
+				</tr></table></td>
+		</tr>
+    <tr>
+      <td height="12"></td>
+    </tr>
+  </table>
+
+</module>
+
+
+<module label="Image on the Left" auto="">
+  <table width="600" cellspacing="0" cellpadding="0" class="wrap body">
+    <tr>
+      <td height="12"></td>
+    </tr>
+    <tr><td valign="top" align="center">
+				<table width="100%" cellpadding="0" cellspacing="0"><tr><td width="24" class="padd"> </td>
+					<td valign="top">
+		
+					<table width="264" cellspacing="0" cellpadding="0" align="left" class="m-b m-b-b"><tr><td valign="top" align="left" class="m-1-2">
+						<img src="http://dummy.newsletter-plugin.com/528x384.jpg" alt="" title="" width="264" height="192" border="0" editable="" label="Image max width 264 pixel" /></td>
+							</tr></table><table width="264" cellspacing="0" cellpadding="0" align="right"><tr><td width="264" valign="top" align="left">
+						<h1><single label="Headline">Headline goes here</single></h1>
+						<multi label="Body"><p>
+							 Li Europan lingu es es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam <a href="#">vocabular</a>. Li lingues differe solmen in li grammatica, li pronunciation e li plu commun.
+						</p></multi><div class="btn"><buttons><a href="#" editable="" label="Read More Button"><img src="img/btn/more.png" width="94" height="30" alt="read more" title="read more" border="0" /></a>
+						</buttons></div>
+					</td>
+						</tr></table></td>
+		
+					<td width="24" class="padd"> </td>
+				</tr></table></td>
+		</tr>
+    <tr>
+      <td height="12"></td>
+    </tr>
+  </table>
+
+</module>
+
+
+<module label="Image on the Right" auto="">
+  <table width="600" cellspacing="0" cellpadding="0" class="wrap body">
+    <tr>
+      <td height="12"></td>
+    </tr>
+    <tr><td valign="top" align="center">
+				<table width="100%" cellpadding="0" cellspacing="0"><tr><td width="24" class="padd"> </td>
+					<td valign="top">
+		
+					<table width="264" cellspacing="0" cellpadding="0" align="right" class="m-b m-b-b"><tr><td valign="top" align="left" class="m-1-2">
+						<img src="http://dummy.newsletter-plugin.com/528x384.jpg" alt="" title="" width="264" height="192" border="0" editable="" label="Image max width 264 pixel" /></td>
+							</tr></table><table width="264" cellspacing="0" cellpadding="0" align="left"><tr><td valign="top" align="left">
+						<h1><single label="Headline">Headline goes here</single></h1>
+						<multi label="Body"><p>
+							 Li Europan lingu es es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam <a href="#">vocabular</a>. Li lingues differe solmen in li grammatica, li pronunciation e li plu commun.
+						</p></multi><div class="btn"><buttons><a href="#" editable="" label="Read More Button"><img src="img/btn/more.png" width="94" height="30" alt="read more" title="read more" border="0" /></a>
+						</buttons></div>
+					</td>
+						</tr></table></td>
+		
+					<td width="24" class="padd"> </td>
+				</tr></table></td>
+		</tr>
+    <tr>
+      <td height="12"></td>
+    </tr>
+  </table>
+
+</module>
+
+
+<module label="1/3 Image on the Left" auto="">
+  <table width="600" cellspacing="0" cellpadding="0" class="wrap body">
+    <tr>
+      <td height="12"></td>
+    </tr>
+    <tr><td valign="top" align="center">
+				<table width="100%" cellpadding="0" cellspacing="0"><tr><td width="24" class="padd"> </td>
+					<td valign="top">
+		
+					<table width="168" cellspacing="0" cellpadding="0" align="left" class="m-b m-b-b"><tr><td valign="top" align="left" class="m-1-3">
+						<img src="http://dummy.newsletter-plugin.com/336x336.jpg" alt="" title="" width="168" height="168" border="0" editable="" label="Image max width 168 pixel" /></td>
+							</tr></table><table width="360" cellspacing="0" cellpadding="0" align="right"><tr><td valign="top" align="left">
+						<h1><single label="Headline">Headline goes here</single></h1>
+						<multi label="Body"><p>
+							 Li Europan lingu es es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam <a href="#">vocabular</a>. Li lingues differe solmen in li grammatica, li pronunciation e li plu commun vocabules.
+						</p></multi><div class="btn"><buttons><a href="#" editable="" label="Read More Button"><img src="img/btn/more.png" width="94" height="30" alt="read more" title="read more" border="0" /></a>
+						</buttons></div>
+					</td>
+						</tr></table></td>
+		
+					<td width="24" class="padd"> </td>
+				</tr></table></td>
+		</tr>
+    <tr>
+      <td height="12"></td>
+    </tr>
+  </table>
+
+</module>
+
+
+<module label="1/3 Image on the Right" auto="">
+  <table width="600" cellspacing="0" cellpadding="0" class="wrap body">
+    <tr>
+      <td height="12"></td>
+    </tr>
+    <tr><td valign="top" align="center">
+				<table width="100%" cellpadding="0" cellspacing="0"><tr><td width="24" class="padd"> </td>
+					<td valign="top">
+		
+					<table width="168" cellspacing="0" cellpadding="0" align="right" class="m-b m-b-b"><tr><td valign="top" align="left">
+						<img src="http://dummy.newsletter-plugin.com/336x336.jpg" alt="" title="" width="168" height="168" border="0" editable="" label="Image max width 168 pixel" /></td>
+							</tr></table><table width="360" cellspacing="0" cellpadding="0" align="left"><tr><td valign="top" align="left">
+						<h1><single label="Headline">Headline goes here</single></h1>
+						<multi label="Body"><p>
+							 Li Europan lingu es es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam <a href="#">vocabular</a>. Li lingues differe solmen in li grammatica, li pronunciation e li plu commun vocabules.
+						</p></multi><div class="btn"><buttons><a href="#" editable="" label="Read More Button"><img src="img/btn/more.png" width="94" height="30" alt="read more" title="read more" border="0" /></a>
+						</buttons></div>
+					</td>
+						</tr></table></td>
+		
+					<td width="24" class="padd"> </td>
+				</tr></table></td>
+		</tr>
+    <tr>
+      <td height="12"></td>
+    </tr>
+  </table>
+
+</module>
+
+
+<module label="1/1 Column" auto="">
+  <table width="600" cellspacing="0" cellpadding="0" class="wrap body">
+    <tr>
+      <td height="12" colspan="3"></td>
+    </tr>
+    <tr><td width="24" class="padd"> </td>
+			<td valign="top" align="left">
+		
+						<h1><single label="Headline">Headline goes here</single></h1>
+						<multi label="Body"><p>
+							 Li Europan lingu es es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam <a href="#">vocabular</a>. Li lingues differe solmen in li grammatica, li pronunciation e li plu commun vocabules.
+						</p></multi><div class="btn"><buttons><a href="#" editable="" label="Read More Button"><img src="img/btn/more.png" width="94" height="30" alt="read more" title="read more" border="0" /></a>
+						</buttons></div>
+		
+			</td>
+			<td width="24" class="padd"> </td>
+		</tr>
+    <tr>
+      <td height="12" colspan="3"></td>
+    </tr>
+  </table>
+
+</module>
+
+
+<module label="1/2 Column" auto="">
+  <table width="600" cellspacing="0" cellpadding="0" class="wrap body">
+    <tr>
+      <td height="12" colspan="3"></td>
+    </tr>
+    <tr><td width="24" class="padd"> </td>
+			<td valign="top" align="center">
+				<table width="100%" cellpadding="0" cellspacing="0" class="o-fix"><tr><td valign="top" align="left">
+						<table width="264" cellpadding="0" cellspacing="0" class="m-b m-b-b" align="left"><tr><td valign="top" align="left">
+							<h1><single label="Headline">Headline goes here</single></h1>
+							<multi label="Body"><p>
+								 Li Europan lingu es es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam <a href="#">vocabular</a>. Li lingues differe solmen in li grammatica, li pronunciation e li plu commun vocabules.
+							</p></multi><div class="btn"><buttons><a href="#" editable="" label="Read More Button"><img src="img/btn/more.png" width="94" height="30" alt="read more" title="read more" border="0" /></a>
+							</buttons></div>
+							</td>
+						</tr></table><table width="264" cellpadding="0" cellspacing="0" class="m-b" align="right"><tr><td valign="top" align="left">
+							<h1><single label="Headline">Headline goes here</single></h1>
+							<multi label="Body"><p>
+								 Li Europan lingu es es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam <a href="#">vocabular</a>. Li lingues differe solmen in li grammatica, li pronunciation e li plu commun vocabules.
+							</p></multi><div class="btn"><buttons><a href="#" editable="" label="Read More Button"><img src="img/btn/more.png" width="94" height="30" alt="read more" title="read more" border="0" /></a>
+							</buttons></div>
+							</td>
+						</tr></table></td>
+		
+				</tr></table></td>
+			<td width="24" class="padd"> </td>
+		</tr>
+    <tr>
+      <td height="12" colspan="3"></td>
+    </tr>
+  </table>
+
+</module>
+
+
+<module label="1/3 Column" auto="">
+  <table width="600" cellspacing="0" cellpadding="0" class="wrap body">
+    <tr>
+      <td height="12" colspan="3"></td>
+    </tr>
+    <tr><td width="24" class="padd"> </td>
+			<td valign="top" align="center">
+				<table width="100%" cellpadding="0" cellspacing="0" class="o-fix"><tr><td valign="top" align="left">
+						<table width="192" cellpadding="0" cellspacing="0" class="m-b m-b-b" align="left"><tr><td valign="top" align="left">
+							<h1><single label="Headline">Headline goes here</single></h1>
+							<multi label="Body"><p>
+								 Li Europan lingu es es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam <a href="#">vocabular</a>. Li lingues differe solmen in li grammatica, li pronunciation e li plu commun vocabules.
+							</p></multi><div class="btn"><buttons><a href="#" editable="" label="Read More Button"><img src="img/btn/more.png" width="94" height="30" alt="read more" title="read more" border="0" /></a>
+							</buttons></div>
+							</td>
+							<td width="24" class="padd"> </td>
+						</tr></table><table width="168" cellpadding="0" cellspacing="0" class="m-b m-b-b" align="left"><tr><td valign="top" align="left">
+							<h1><single label="Headline">Headline goes here</single></h1>
+							<multi label="Body"><p>
+								 Li Europan lingu es es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam <a href="#">vocabular</a>. Li lingues differe solmen in li grammatica, li pronunciation e li plu commun vocabules.
+							</p></multi><div class="btn"><buttons><a href="#" editable="" label="Read More Button"><img src="img/btn/more.png" width="94" height="30" alt="read more" title="read more" border="0" /></a>
+							</buttons></div>
+							</td>
+						</tr></table><table width="168" cellpadding="0" cellspacing="0" class="m-b" align="right"><tr><td valign="top" align="left">
+							<h1><single label="Headline">Headline goes here</single></h1>
+							<multi label="Body"><p>
+								 Li Europan lingu es es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam <a href="#">vocabular</a>. Li lingues differe solmen in li grammatica, li pronunciation e li plu commun vocabules.
+							</p></multi><div class="btn"><buttons><a href="#" editable="" label="Read More Button"><img src="img/btn/more.png" width="94" height="30" alt="read more" title="read more" border="0" /></a>
+							</buttons></div>
+							</td>
+						</tr></table></td>
+		
+				</tr></table></td>
+			<td width="24" class="padd"> </td>
+		</tr>
+    <tr>
+      <td height="12" colspan="3"></td>
+    </tr>
+  </table>
+
+</module>
+
+
+<module label="1/4 Column" auto="">
+  <table width="600" cellspacing="0" cellpadding="0" class="wrap body">
+    <tr>
+      <td height="12" colspan="3"></td>
+    </tr>
+    <tr><td width="24" class="padd"> </td>
+			<td valign="top" align="center">
+				<table width="100%" cellpadding="0" cellspacing="0" class="o-fix"><tr><td valign="top" align="left">
+						<table width="144" cellpadding="0" cellspacing="0" class="m-b m-b-b" align="left"><tr><td valign="top" align="left">
+							<h1><single label="Headline">Headline</single></h1>
+							<multi label="Body"><p>
+								 Li Europan lingu es es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam <a href="#">vocabular</a>.
+							</p></multi><div class="btn"><buttons><a href="#" editable="" label="Read More Button"><img src="img/btn/more.png" width="94" height="30" alt="read more" title="read more" border="0" /></a>
+							</buttons></div>
+							</td>
+							<td width="24" class="padd"> </td>
+						</tr></table><table width="144" cellpadding="0" cellspacing="0" class="m-b m-b-b" align="left"><tr><td valign="top" align="left">
+							<h1><single label="Headline">Headline</single></h1>
+							<multi label="Body"><p>
+								 Li Europan lingu es es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam <a href="#">vocabular</a>.
+							</p></multi><div class="btn"><buttons><a href="#" editable="" label="Read More Button"><img src="img/btn/more.png" width="94" height="30" alt="read more" title="read more" border="0" /></a>
+							</buttons></div>
+							</td>
+							<td width="24" class="padd"> </td>
+						</tr></table><table width="120" cellpadding="0" cellspacing="0" class="m-b m-b-b" align="left"><tr><td valign="top" align="left">
+							<h1><single label="Headline">Headline</single></h1>
+							<multi label="Body"><p>
+								 Li Europan lingu es es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam <a href="#">vocabular</a>.
+							</p></multi><div class="btn"><buttons><a href="#" editable="" label="Read More Button"><img src="img/btn/more.png" width="94" height="30" alt="read more" title="read more" border="0" /></a>
+							</buttons></div>
+							</td>
+						</tr></table><table width="120" cellpadding="0" cellspacing="0" class="m-b" align="right"><tr><td valign="top" align="left">
+							<h1><single label="Headline">Headline</single></h1>
+							<multi label="Body"><p>
+								 Li Europan lingu es es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam <a href="#">vocabular</a>.
+							</p></multi><div class="btn"><buttons><a href="#" editable="" label="Read More Button"><img src="img/btn/more.png" width="94" height="30" alt="read more" title="read more" border="0" /></a>
+							</buttons></div>
+							</td>
+						</tr></table></td>
+		
+				</tr></table></td>
+			<td width="24" class="padd"> </td>
+		</tr>
+    <tr>
+      <td height="12" colspan="3"></td>
+    </tr>
+  </table>
+
+</module>
+</modules>
+<table class="wrap footer" cellpadding="0" cellspacing="0" width="600"><tbody><tr>
+<td align="left" valign="top">
+                                                               <table cellpadding="0" cellspacing="0" width="100%"><tbody>
+<tr>
+<td class="padd" width="24">&nbsp;</td>
+                                                                              <td class="small invert m-b" align="left" valign="top">
+                                                                              <div><single label="CAN Spam">{can-spam}</single></div>
+                                                                              <div><single label="Copyright">{copyright}</single></div>
+                                                                              </td>
+                                                                              <td class="padd m-0" width="24">&nbsp;</td>
+                                                                              <td class="small m-b" align="right" valign="top" width="187">
+                                                                             
+                                                                                              <a href="https://twitter.com/nouscitoyens" editable="" label="Social Media Button">
+                      <img title="twitter" alt="twitter" src="img/social/dark/twitter.png" label="Social Media Button" height="29" border="0" width="29"></a>
+                                                                                              <a href="https://fr-fr.facebook.com/wecitizens.be" editable="" label="Social Media Button"><img title="" alt="" src="img/social/dark/facebook.png" label="Social Media Button" height="32" border="0" width="32"></a>
+                                                                             
+                                                                              </td>
+<td class="padd" width="24">&nbsp;</td>
+</tr>
+<tr class="m-0"><td colspan="5" height="24"></td></tr>
+</tbody></table>
+</td>
+                               </tr></tbody></table>
+<table class="wrap" style="margin-bottom: 24px;" cellpadding="0" cellspacing="0"><tbody><tr><td valign="top"><img class="m-100" alt="" src="img/shadow.png" height="12" border="0" width="600"></td></tr></tbody></table>
+</td>
+</tr></tbody></table>
+</body></html>

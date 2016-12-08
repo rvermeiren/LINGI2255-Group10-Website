@@ -1,0 +1,127 @@
+
+2. [10-04-2013 21:10:55]: 
+----------------------------------------------------------------------------------------------------
+<pre>Array
+(
+    [0] => stdClass Object
+        (
+            [ID] => 12
+            [display_name] => Alloo
+            [user_email] => Michel.Alloo@skynet.be
+        )
+
+    [1] => stdClass Object
+        (
+            [ID] => 25
+            [display_name] => Coomans
+            [user_email] => murielmichelc@hotmail.com
+        )
+
+    [2] => stdClass Object
+        (
+            [ID] => 23
+            [display_name] => deleCourt
+            [user_email] => jcd@deltaluxConsult.com
+        )
+
+    [3] => stdClass Object
+        (
+            [ID] => 21
+            [display_name] => Derudder
+            [user_email] => vjd@nea.lu
+        )
+
+    [4] => stdClass Object
+        (
+            [ID] => 29
+            [display_name] => doultrement
+            [user_email] => rdo@gesticonseils.be
+        )
+
+    [5] => stdClass Object
+        (
+            [ID] => 18
+            [display_name] => Hambye
+            [user_email] => fhambye@skynet.be
+        )
+
+    [6] => stdClass Object
+        (
+            [ID] => 17
+            [display_name] => Havaux
+            [user_email] => rene.havaux@skynet.be
+        )
+
+    [7] => stdClass Object
+        (
+            [ID] => 45
+            [display_name] => Jourquin
+            [user_email] => Christian@Jourquin.be
+        )
+
+    [8] => stdClass Object
+        (
+            [ID] => 26
+            [display_name] => Leduc
+            [user_email] => jacques.leduc@skynet.be
+        )
+
+    [9] => stdClass Object
+        (
+            [ID] => 15
+            [display_name] => Lemaire
+            [user_email] => y.lemaire@alima.fr
+        )
+
+    [10] => stdClass Object
+        (
+            [ID] => 22
+            [display_name] => Mossiat
+            [user_email] => pierre.mossiat@strictly-confidential.net
+        )
+
+    [11] => stdClass Object
+        (
+            [ID] => 31
+            [display_name] => pinon-test
+            [user_email] => jean-paul@pinon.be
+        )
+
+    [12] => stdClass Object
+        (
+            [ID] => 30
+            [display_name] => Scokaert
+            [user_email] => pierre@scokaert.eu
+        )
+
+    [13] => stdClass Object
+        (
+            [ID] => 14
+            [display_name] => Seys
+            [user_email] => etienne.seys@belgacom.net
+        )
+
+    [14] => stdClass Object
+        (
+            [ID] => 28
+            [display_name] => VanCauter
+            [user_email] => willem.van.cauter@jpabelgium.be
+        )
+
+    [15] => stdClass Object
+        (
+            [ID] => 20
+            [display_name] => Wilberz
+            [user_email] => eric.wilberz@yucom.be
+        )
+
+    [16] => stdClass Object
+        (
+            [ID] => 19
+            [display_name] => Willocx
+            [user_email] => ow@beci.be
+        )
+
+)
+</pre>
+
