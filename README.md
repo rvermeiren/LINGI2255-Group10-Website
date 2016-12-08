@@ -36,6 +36,6 @@ For this, you can use the *chmod* command but never set all the permission "*777
 - Configure the database information into the **wp-config.php** file
 
 
-##Lauching
+##Launching
 
 Normaly, the website work directly at the adress put into the database. If you meet a white page, verify the different step or the file permission.
