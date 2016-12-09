@@ -37,7 +37,7 @@ For this, you can use the *chmod* command but never set all the permission "*777
 
 ###Database installation
 
-- Extract the sql.zip from the main directory of this repository to get the dump sql to load
+- Extract the database.zip from the main directory of this repository to get the dump sql to load
 - Load the sql file with mysql command line or phpmyadmin tool if provided
   - Due to the size of the database, you need to disable the time limit to load the sql file
 - Change the field 1 and 36 of the **wp_option** table with the domain name of the website or ip address of the server if you don't have a domain name
