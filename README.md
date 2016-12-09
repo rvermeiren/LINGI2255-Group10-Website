@@ -2,6 +2,10 @@
 
 You can visit the working website configure with this repository on : http://188.166.25.126/
 
+You can log into the website with administrative rigth with this information = 
+- email: xxxx@xxxx.be 
+- password: poldir1348uclLLN
+
 If you see an database error, please contact Rémy Vermeiren (remy.vermeiren@student.uclouvain.be) to fix the mysql server bug. This error is due to the low cost server we use to put online the website.
 
 ##Website installation
