@@ -47,3 +47,10 @@ For this, you can use the *chmod* command but never set all the permission "*777
 ##Launching
 
 Normally, the website works directly at the address put into the database. If you meet a white page, check the different steps or the file permission.
+
+
+##Test
+
+The only pertinent test is the google mobile test. You can launch it on this page : https://search.google.com/search-console/mobile-friendly .
+
+The result can be seen on this page: https://search.google.com/search-console/mobile-friendly?utm_source=mft&utm_medium=redirect&utm_campaign=mft-redirect&hl=fr&id=a_7LCr9SL_EezABmc7sxxA .
