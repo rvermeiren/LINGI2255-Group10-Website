@@ -1,5 +1,9 @@
 #WeCitizens.be
 
+You can visit the working website configure with this repository on : http://188.166.25.126/
+
+If you see an database error, please contact Rémy Vermeiren (remy.vermeiren@student.uclouvain.be) to fix the mysql server bug. This error is due to the low cost server we use to put online the website.
+
 ##Website installation
 
 ###Files installation
