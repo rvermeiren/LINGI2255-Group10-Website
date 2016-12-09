@@ -2,7 +2,7 @@
 
 You can visit the working website configure with this repository on : http://188.166.25.126/
 
-You can log into the website with administrative rigth with this information = 
+You can log into the website with administrative rigth with this information :
 - email: xxxx@xxxx.be 
 - password: poldir1348uclLLN
 
