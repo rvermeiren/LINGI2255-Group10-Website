@@ -56,9 +56,3 @@ The only pertinent test is the google mobile test. You can launch it on this pag
 The result can be seen on this page: https://search.google.com/search-console/mobile-friendly?utm_source=mft&utm_medium=redirect&utm_campaign=mft-redirect&hl=fr&id=a_7LCr9SL_EezABmc7sxxA .
 
 
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
-
