@@ -1,5 +1,13 @@
 #WeCitizens.be
 
+You can visit the working website configure with this repository on : http://188.166.25.126/
+
+You can log into the website with administrative rigth with this information :
+- email: xxxx@xxxx.be 
+- password: poldir1348uclLLN
+
+If you see an database error, please contact Rémy Vermeiren (remy.vermeiren@student.uclouvain.be) to fix the mysql server bug. This error is due to the low cost server we use to put online the website.
+
 ##Website installation
 
 ###Files installation
@@ -29,7 +37,7 @@ For this, you can use the *chmod* command but never set all the permission "*777
 
 ###Database installation
 
-- Extract the sql.zip from the main directory of this repository to get the dump sql to load
+- Extract the database.zip from the main directory of this repository to get the dump sql to load
 - Load the sql file with mysql command line or phpmyadmin tool if provided
   - Due to the size of the database, you need to disable the time limit to load the sql file
 - Change the field 1 and 36 of the **wp_option** table with the domain name of the website or ip address of the server if you don't have a domain name
@@ -39,3 +47,12 @@ For this, you can use the *chmod* command but never set all the permission "*777
 ##Launching
 
 Normally, the website works directly at the address put into the database. If you meet a white page, check the different steps or the file permission.
+
+
+##Test
+
+The only pertinent test is the google mobile test. You can launch it on this page : https://search.google.com/search-console/mobile-friendly .
+
+The result can be seen on this page: https://search.google.com/search-console/mobile-friendly?utm_source=mft&utm_medium=redirect&utm_campaign=mft-redirect&hl=fr&id=a_7LCr9SL_EezABmc7sxxA .
+
+
